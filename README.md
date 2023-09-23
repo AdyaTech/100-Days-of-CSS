@@ -1,5 +1,4 @@
 # 100 Days of CSS
-
 Jumping into the Challenge using Vanilla CSS
 
 |Sr No. | Project Name | Link |
