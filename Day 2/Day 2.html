@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS DAY 2</title>
+        <link rel="stylesheet" href="daytwo.css">
+    </head>
+
+    <body>
+        
+<section>
+      <div class="content">
+        <div class="bar animation_off"></div>
+        <div class="bar animation_off"></div>
+        <div class="bar animation_off"></div>
+        
+      </div>
+    </section>
+    <script>
+      const menuIcon = document.querySelector(".content");
+      menuIcon.onclick = function () {
+        this.classList.toggle("active");
+        [...this.children].map((e) => e.classList.remove("animation_off"));
+      };
+    </script>
+
+    </body>
+</html>
