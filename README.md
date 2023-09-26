@@ -6,6 +6,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 1 | 100 Days |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%201)|
 | 2 | Menu Icon |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%202)|
 | 3 | The Pyramid |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%203)|
+| 4 | Loading Icon |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%204)|
 
 ## Output
 1. 100 Days
@@ -19,3 +20,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 3. The Pyramid
 
 ![Day 3](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%203/Video.gif)
+
+4. Loading Icon
+
+![Day 4](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%204/Video.gif)
