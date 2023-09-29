@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS DAY 7</title>
+        <link rel="stylesheet" href="dayseven.css">
+    </head>
+
+    <body>
+        
+        
+        <div class="frame">
+            <div class="center">
+                <div class="active" id="panel">
+                    <div class="header">
+                        <div class="toogle" id="menu-toggle">
+                            <div class="top">
+                                <div class="line item"></div>
+                                <div class="point item"></div>
+                            </div>
+                            
+                            <div class="line item"></div>
+                        </div>
+    
+                        <p>Notifications</p>
+    
+                        <div class="search" id="search-icon">
+                            <div class="circle item"></div>
+                            <div class="bar item"></div>
+                        </div>
+                        <input type="text" name="search-bar" id="search-bar" class="search-hidden" placeholder="search...">
+                    </div>
+    
+                    <div class="info">
+                        <div class="col one"></div>
+                        <div class="col two">
+                            <div class="noti">
+                                <div class="row top">
+                                    <div class="circle"></div>
+                                    <p class="time">9:24 am</p>
+                                </div>
+                                <div class="row desc">
+                                    <p><span class="username">Jhon Walker</span> posted a photo on your wall</p>
+                                </div>
+                            </div>
+                            <div class="noti">
+                                <div class="row top">
+                                    <div class="circle"></div>
+                                    <p class="time">9:24 am</p>
+                                </div>
+                                <div class="row desc">
+                                    <p><span class="username">Alice Parker</span> Commented your last post</p>
+                                </div>
+                            </div>
+                            <div class="noti">
+                                <div class="row top">
+                                    <div class="circle"></div>
+                                    <p class="time">9:24 am</p>
+                                </div>
+                                <div class="row desc">
+                                    <p><span class="username">Luke Wayne</span> added you as friend</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden" id="menu">
+                    <div class="row">
+                        <div class="icon">&#9729;</div>
+                        <p class="label">Dashboard</p>
+                    </div>
+                    <div class="row">
+                        <div class="icon">&#9822;</div>
+                        <p class="label">Profile</p>
+                    </div>
+                    <div class="row">
+                        <div class="icon">&#9930;</div>
+                        <p class="label">Notifications</p>
+                    </div>
+                    <div class="row">
+                        <div class="icon">&#9968;</div>
+                        <p class="label">Messages</p>
+                    </div>
+                    <div class="row">
+                        <div class="icon">&#9972;</div>
+                        <p class="label">Settings</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+          <script>
+
+//Display search bar
+const searchIcon = document.getElementById("search-icon");
+const searchBar = document.getElementById("search-bar");
+
+searchIcon.onclick = function(){
+    searchBar.classList.toggle("search-active");
+    
+}
+
+//toggle menu
+const menu = document.getElementById("menu");
+const panel = document.getElementById("panel");
+const menuToggle = document.getElementById("menu-toggle");
+
+menuToggle.onclick = function(){
+    panel.classList.toggle("hidden");
+    menu.classList.toggle("active")
+}    </script>
+    </body>
+</html>
