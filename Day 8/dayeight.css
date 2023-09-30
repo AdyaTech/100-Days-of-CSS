@@ -1,0 +1,170 @@
+
+body{
+    display: flex;
+    width:98%;
+    height:90vh;
+    align-items: center;
+    justify-content: center;
+}
+.wrap{
+    width:400px;
+    height:400px;
+    background-color:black;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    filter: contrast(25);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ball{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border-radius: 50%;
+    filter: blur(15px);
+}
+.bubble{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.bubble::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    filter: blur(5px);
+}
+.b1::after{
+    transform-origin: 17px 17px;
+    -webkit-animation: rotate 2.7s ease-in-out 0.2s infinite;
+    animation: rotate 2.7s ease-in-out 0.2s infinite;
+}
+.b2::after{
+    transform-origin: 34px 34px;
+    -webkit-animation: rotate 2.9s ease-in-out 0.4s infinite;
+    animation: rotate 2.9s ease-in-out 0.4s infinite;
+}
+.b3::after{
+    transform-origin: 31px 31px;
+    -webkit-animation: rotate 3.1s ease-in-out 0.6s infinite;
+    animation: rotate 3.1s ease-in-out 0.6s infinite;
+}
+.b4::after{
+    transform-origin: 11px 11px;
+    -webkit-animation: rotate 3.3s ease-in-out 0.8s infinite;
+    animation: rotate 3.3s ease-in-out 0.8s infinite;
+}
+.b5::after{
+    transform-origin: 25px 25px;
+    -webkit-animation: rotate 3.5s ease-in-out 1s infinite;
+    animation: rotate 3.5s ease-in-out 1s infinite;
+}
+
+.smallBalls {
+    position: absolute;
+    top: 38px;
+    left: 38px;
+}
+.smallBalls::after{
+    position: absolute;
+    display: block;
+    content: '';
+    background: white;
+    border-radius: 50%;
+    filter: blur(3px);
+    
+}
+.s1::after{
+    width: 7px;
+    height: 7px;
+    transform-origin: 60px 60px;
+    -webkit-animation: rotate 3.7s ease-in-out 0.2s infinite;
+    animation: rotate 3.7s ease-in-out 0.2s infinite;
+}
+.s2::after{
+    width: 8px;
+    height: 8px;
+    transform-origin: 56px 56px;
+    -webkit-animation: rotate 3.9s ease-in-out 0.4s infinite;
+    animation: rotate 3.9s ease-in-out 0.4s infinite;
+}
+.s3::after{
+    width: 9px;
+    height: 9px;
+    transform-origin: -40px -40px;
+    -webkit-animation: rotate 4.1s ease-in-out 0.6s infinite;
+    animation: rotate 4.1s ease-in-out 0.6s infinite;
+}
+.s4::after{
+    width: 11px;
+    height: 11px;
+    transform-origin: 12px 12px;
+    -webkit-animation: rotate 4.3s ease-in-out 0.8s infinite;
+    animation: rotate 4.3s ease-in-out 0.8s infinite;
+}
+.s5::after{
+    width: 12px;
+    height: 12px;
+    transform-origin: -50px -50px;
+    -webkit-animation: rotate 4.5s ease-in-out 1s infinite;
+    animation: rotate 4.5s ease-in-out 1s infinite;
+}
+.s6::after{
+    width: 13px;
+    height: 13px;
+    transform-origin: 48px 48px;
+    -webkit-animation: rotate 4.7s ease-in-out 1.2s infinite;
+            animation: rotate 4.7s ease-in-out 1.2s infinite;
+}
+.s7::after{
+    width: 14px;
+    height: 14px;
+    transform-origin: -46px -46px;
+    -webkit-animation: rotate 4.9s ease-in-out 1.4s infinite;
+    animation: rotate 4.9s ease-in-out 1.4s infinite;
+}
+.s8::after{
+    width: 15px;
+    height: 15px;
+    transform-origin: 44px 44px;
+    -webkit-animation: rotate 5.1s ease-in-out 1.6s infinite;
+    animation: rotate 5.1s ease-in-out 1.6s infinite;
+}
+.s9::after{
+    width: 16px;
+    height: 16px;
+    transform-origin: -60px -60px;
+    -webkit-animation: rotate 5.3s ease-in-out 1.8s infinite;
+    animation: rotate 5.3s ease-in-out 1.8s infinite;
+}
+.s10::after{
+    width: 17px;
+    height: 17px;
+    transform-origin: 40px 40px;
+    -webkit-animation: rotate 5.5s ease-in-out 2s infinite;
+    animation: rotate 5.5s ease-in-out 2s infinite;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg) translate3d(0,0,0);
+	}
+	to {
+		transform: rotate(360deg) translate3d(0,0,0);
+	}
+}
