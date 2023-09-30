@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS DAY 8</title>
+        <link rel="stylesheet" href="dayeight.css">
+    </head>
+
+    <body>
+        
+        <body onload="loader()">
+            <div class="wrap">
+                <div class="center">
+                <div class="ball"></div>
+                <div class="bubble b1"></div>
+                <div class="bubble b2"></div>
+                <div class="bubble b3"></div>
+                <div class="bubble b4"></div>
+                <div class="bubble b5"></div>
+                <div class="smallBalls s1"></div>
+                <div class="smallBalls s2"></div>
+                <div class="smallBalls s3"></div>
+                <div class="smallBalls s4"></div>
+                <div class="smallBalls s5"></div>
+                <div class="smallBalls s6"></div>
+                <div class="smallBalls s7"></div>
+                <div class="smallBalls s8"></div>
+                <div class="smallBalls s9"></div>
+                <div class="smallBalls s10"></div>
+                </div>
+            </div>
+
+            <script>
+              function loader(){
+   let bubles = Array.from(document.getElementsByClassName('bubble'))
+   bubles.forEach((element,index) => {
+    let rotate = 10+Math.floor(Math.random()*100)
+    element.style.transform = 'rotate('+rotate+'deg)';
+   });
+   let small = Array.from(document.getElementsByClassName('smallBalls'))
+   small.forEach((element,index) => {
+    let rotate = 300+Math.floor(Math.random()*100)
+    element.style.transform = 'rotate('+rotate+'deg)';
+    element.style.width = (index + 7)+'px';
+    element.style.height = (index + 7)+'px';
+   });
+}
+              </script>
+        </body>
+          
+    </body>
+</html>
