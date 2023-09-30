@@ -10,6 +10,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 5 | Statistics |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%205)|
 | 6 | The Profile |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%206)|
 | 7 | All in One Pack |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%207)|
+| 8 | Metaballs |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%208)|
 
 ## Output
 1. 100 Days
@@ -39,3 +40,8 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 7. All in One Pack
 
 ![Day 7](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%207/Video.gif)
+
+8. Metaballs
+
+![Day 8](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%208/Video.gif)
+
