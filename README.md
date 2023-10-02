@@ -12,6 +12,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 7 | All in One Pack |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%207)|
 | 8 | Metaballs |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%208)|
 | 9 | Rainy Night |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%209)|
+| 10 | Health Check |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2010)|
 
 ## Output
 1. 100 Days
@@ -49,3 +50,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 9. Rainy Night
 
 ![Day 9](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%209/Video.gif)
+
+10. Health Check
+
+![Day 10](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2010/video.gif)
