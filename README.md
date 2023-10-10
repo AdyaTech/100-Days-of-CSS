@@ -20,6 +20,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 15 | Demo Upload |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2015)|
 | 16 | Blobby |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2016)|
 | 17 | Shy Penrose |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2017)|
+| 18 | Flexie |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2018)|
 
 ## Output
 1. 100 Days
@@ -89,3 +90,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 17. Shy Penrose
     
 ![Day 17](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2017/Video.gif)
+
+18. Flexie
+    
+![Day 18](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2018/Video.gif)
