@@ -22,6 +22,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 17 | Shy Penrose |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2017)|
 | 18 | Flexie |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2018)|
 | 19 | Color Slider |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2019)|
+| 20 | Mail It |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2020)|
 
 ## Output
 1. 100 Days
@@ -99,3 +100,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 19. Color Slider
     
 ![Day 19](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2019/video.gif)
+
+20. Mail It
+    
+![Day 20](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2020/Video.gif)
