@@ -23,6 +23,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 18 | Flexie |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2018)|
 | 19 | Color Slider |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2019)|
 | 20 | Mail It |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2020)|
+| 21 | Pac-Man |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2021)|
 
 ## Output
 1. 100 Days
@@ -104,3 +105,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 20. Mail It
     
 ![Day 20](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2020/Video.gif)
+
+21. Pac-Man
+    
+![Day 21](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2021/Video.gif)
