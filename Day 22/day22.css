@@ -1,0 +1,193 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,500,600,400,300);
+
+body {
+  background: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 3px;
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 2px 6px 10px 0 rgba(0, 0, 0, 0.1019607843);
+  background: linear-gradient(to bottom, #28404E 0%, #1c2e38 100%);
+  font-family: "Open Sans";
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.sec-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-circle {
+  position: absolute;
+  top: 8.8em;
+  left: 10.7em;
+  text-align: center;
+}
+.main-circle .numb {
+  font-size: 25px;
+  margin: 0;
+  margin-top: 20px;
+}
+.main-circle .cal {
+  margin: 0;
+  color: #648192;
+  font-size: 14px;
+}
+
+svg {
+  transform: translateX(205px);
+  margin-top: 25px;
+  width: 114px;
+  height: 114px;
+}
+
+.bg {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #1B2A33;
+}
+
+.progreso {
+  fill: none;
+  stroke-width: 10px;
+  stroke: #27E1AE;
+  stroke-linecap: round;
+  stroke-dasharray: 326.56;
+  stroke-dashoffset: 60;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  animation: xd 1.5s ease-in-out;
+}
+
+.second-container {
+  display: flex;
+  width: 400px;
+  height: 120px;
+  text-align: center;
+  padding-left: 8em;
+  align-items: center;
+}
+.second-container .text-container {
+  position: absolute;
+  left: 4.9em;
+}
+.second-container .text-container-2 {
+  position: absolute;
+  left: 5.5em;
+  text-align: center;
+}
+.second-container .sec {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 25px;
+  display: inline-block;
+  transform: translateX(-50px);
+}
+.second-container .sec svg {
+  margin: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  transform: translate(44px);
+}
+.second-container .bg {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #1B2A33;
+}
+.second-container .progress {
+  fill: none;
+  stroke-width: 6px;
+  stroke: #5CE1EC;
+  stroke-linecap: round;
+  stroke-dasharray: 232.36;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+.second-container .progress.uno {
+  stroke-dashoffset: 80;
+  animation: uno 1.5s ease-in-out;
+}
+.second-container .progress.dos {
+  stroke-dashoffset: 140;
+  transform: rotate(-90deg) translateY(40px);
+  animation: dos 1.5s ease-in-out;
+}
+.second-container .numb {
+  margin: 0;
+  margin-top: 1.55em;
+  font-size: 17px;
+	font-weight: 500
+}
+
+.ste {
+  margin: 0;
+  color: #648192;
+  font-size: 12px;
+}
+
+.km {
+  margin: 0;
+  color: #648192;
+  font-size: 12px;
+}
+
+@keyframes xd {
+  from {
+    stroke-dashoffset: 300;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+@keyframes uno {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+@keyframes dos {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
