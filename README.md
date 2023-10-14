@@ -24,6 +24,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 19 | Color Slider |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2019)|
 | 20 | Mail It |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2020)|
 | 21 | Pac-Man |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2021)|
+| 22 | Fitness Tracker |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2022)|
 
 ## Output
 1. 100 Days
@@ -109,3 +110,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 21. Pac-Man
     
 ![Day 21](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2021/Video.gif)
+
+22. Fitness Tracker
+    
+![Day 22](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2022/img.png)
