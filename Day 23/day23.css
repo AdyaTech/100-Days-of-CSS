@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,300);
+body {
+  background: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 3px;
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #E16D6C;
+  font-family: "Open Sans";
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.circulo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 175px;
+  background: #fff;
+  left: 175px;
+  border-radius: 50%;
+  z-index: 10;
+  animation: circulo 1s ease-in-out forwards;
+}
+
+.linea {
+  position: absolute;
+  z-index: 10;
+  width: 150px;
+  height: 4px;
+  top: 198px;
+  background: #fff;
+  transform: scaleX(0);
+}
+.linea.izq {
+  left: 50px;
+  transform-origin: 100% 50%;
+  animation: lineas 1s ease-in-out 0.8s, linea-izq 1s steps(1) 0.8s;
+}
+.linea.der {
+  right: 50px;
+  transform-origin: 0% 50%;
+  animation: lineas 1s ease-in-out 0.8s, linea-der 1s steps(1) 0.8s;
+}
+
+.llave {
+  position: absolute;
+  background: #ffffff;
+  height: 70px;
+  width: 4px;
+  z-index: 50;
+  top: 165px;
+  animation: llave 0.4s ease-out 1.7s both;
+}
+.llave::before, .llave::after {
+  position: absolute;
+  background: #fff;
+  content: "";
+  width: 25px;
+  height: 4px;
+}
+.llave.izq {
+  left: 50px;
+}
+.llave.izq::before {
+  top: 0;
+  left: 0;
+  transform-origin: 0 50%;
+  animation: llave-linea 0.2s ease-out 2.07s both;
+}
+.llave.izq::after {
+  bottom: 0;
+  left: 0;
+  transform-origin: 0 50%;
+  animation: llave-linea 0.2s ease-out 2.07s both;
+}
+.llave.der {
+  right: 50px;
+}
+.llave.der::before {
+  top: 0;
+  right: 0;
+  transform-origin: 100% 50%;
+  animation: llave-linea 0.2s ease-out 2.07s both;
+}
+.llave.der::after {
+  bottom: 0;
+  right: 0;
+  transform-origin: 100% 50%;
+  animation: llave-linea 0.2s ease-out 2.07s both;
+}
+
+.esconder {
+  position: absolute;
+  z-index: 7;
+  width: 400px;
+  height: 50px;
+  background: #E16D6C;
+  left: 0;
+  animation: mostrar 0.4s ease-out 1.7s both;
+}
+.esconder.arriba {
+  bottom: 49%;
+}
+.esconder.abajo {
+  top: 49%;
+}
+
+.grande {
+  position: absolute;
+  top: 170px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.chico {
+  position: absolute;
+  top: 165px;
+  font-size: 30px;
+  font-weight: 300;
+  width: 400px;
+  z-index: 10;
+  line-height: 30px;
+  text-align: center;
+}
+.chico.arriba {
+  top: 140px;
+  animation: chico-arriba 0.5s ease-out 2.2s both;
+}
+.chico.abajo {
+  top: 230px;
+  animation: chico-abajo 0.5s ease-out 2.2s both;
+}
+
+@keyframes circulo {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  90%, 100% {
+    transform: scale(0);
+  }
+}
+@keyframes lineas {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+@keyframes linea-izq {
+  0% {
+    transform-origin: 100% 50%;
+  }
+  50%, 100% {
+    transform-origin: 0% 50%;
+  }
+}
+@keyframes linea-der {
+  0% {
+    transform-origin: 0% 50%;
+  }
+  50%, 100% {
+    transform-origin: 100% 50%;
+  }
+}
+@keyframes llave-linea {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+@keyframes llave {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@keyframes mostrar {
+  0% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(0);
+  }
+}
+@keyframes chico-arriba {
+  0% {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes chico-abajo {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+
