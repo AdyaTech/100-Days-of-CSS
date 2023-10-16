@@ -26,6 +26,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 21 | Pac-Man |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2021)|
 | 22 | Fitness Tracker |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2022)|
 | 23 | Animated Typography |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2023)|
+| 24 | Button |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2024)|
 
 ## Output
 1. 100 Days
@@ -118,4 +119,8 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 
 23. Animated Typography
     
-![Day 22](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2023/video.gif)
+![Day 23](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2023/video.gif)
+
+24. Button
+    
+![Day 24](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2024/video.gif)
