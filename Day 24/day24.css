@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+body {
+  background: #aaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 3px;
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #57D895;
+  font-family: "Open Sans";
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}
+
+.boton {
+  letter-spacing: 2px;
+  position: absolute;
+  top: 175px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  font-weight: 600;
+  width: 260px;
+  height: 60px;
+  left: 70px;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.boton:hover {
+  background: #37BE77;
+}
+
+img {
+  position: absolute;
+  z-index: 2;
+  top: 16px;
+  left: 15px;
+  opacity: 0;
+}
+
+.circulo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  top: 175px;
+  left: 170px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-dasharray: 183 183;
+  stroke-dashoffset: 183;
+  pointer-events: none;
+  transform: rotate(-90deg);
+}
+
+input:checked ~ .boton {
+  animation: boton 0.5s ease both, llenar 0.5s ease-out 1.5s forwards;
+}
+input:checked ~ .boton img {
+  animation: img 0.5s ease-out 1.5s both;
+}
+input:checked ~ .circulo {
+  animation: circulo 2s ease-out 0.5s both;
+}
+
+@keyframes llenar {
+  0% {
+    background: transparent;
+    border-color: #fff;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@keyframes img {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes boton {
+  0% {
+    width: 260px;
+    left: 70px;
+    border-color: #fff;
+    color: #fff;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    width: 60px;
+    left: 170px;
+    border-color: #45B078;
+    background: transparent;
+    color: transparent;
+  }
+}
+@keyframes circulo {
+  0% {
+    stroke-dashoffset: 183;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 183;
+    transform: rotate(-90deg) scale(1);
+    opacity: 1;
+  }
+  90%, 100% {
+    stroke-dasharray: 500 500;
+    transform: rotate(-90deg) scale(2);
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
