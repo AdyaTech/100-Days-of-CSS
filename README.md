@@ -27,6 +27,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 22 | Fitness Tracker |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2022)|
 | 23 | Animated Typography |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2023)|
 | 24 | Button |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2024)|
+| 25 | Map Marker |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2025)|
 
 ## Output
 1. 100 Days
@@ -124,3 +125,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 24. Button
     
 ![Day 24](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2024/video.gif)
+
+25. Map Marker
+    
+![Day 25](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2025/video.gif)
