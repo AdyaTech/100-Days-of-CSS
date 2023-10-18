@@ -1,0 +1,126 @@
+/* // delete the following line if no text is used */
+/* // edit the line if you wanna use other fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* // use only the available space inside the 400x400 frame */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #C7D6E1;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.card{
+    position: absolute;
+	z-index: 0;
+	width: 240px;
+	height: 150px;
+  top: 125px;
+  left: 80px;
+	background: #fff;
+  box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.1);
+	border-radius: 3px;
+	overflow: hidden;
+	pointer-events: none;
+	opacity: 0;
+	transform: scale(0.5);
+}
+
+.card.active{
+    pointer-events: all;
+    animation: fade-in .5s ease-in-out forwards;    
+}
+
+.card.inactive{
+    pointer-events: none;
+    animation: fade-out .5s ease-in-out forwards;
+}
+
+.text {
+	text-align: center;
+	padding: 20px 10px;
+}		
+.headline {
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #616E7D;
+	margin-bottom: 8px;
+}
+		
+p {
+	font-size: 12px;
+	line-height: 17px;
+	color: #8391A1;
+	margin: 0;
+}
+		
+.number-bg{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: #8391A1;
+    top: -30px;
+    right: -30px;
+    transform: rotate(45deg);
+}
+
+.number{
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    right: 6px;
+}
+
+.button{
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    color: #fff;
+    background-color: #3CA7FB;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    bottom: 0px;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-out {
+    from{
+        opacity: 1;
+        transform: scale(1);
+    }
+    to{
+        opacity: 0;
+        transform: scale(1.5);
+    }
+}
