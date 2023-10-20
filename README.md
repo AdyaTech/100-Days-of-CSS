@@ -30,6 +30,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 25 | Map Marker |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2025)|
 | 26 | Motivational Modal |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2026)|
 | 27 | CheckList |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2027)|
+| 28 | RingaRing |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2028)|
 
 ## Output
 1. 100 Days
@@ -139,3 +140,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 27. CheckList
     
 ![Day 27](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2027/video.mp4)
+
+28. RingaRing
+        
+![Day 28](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2028/video.gif)
