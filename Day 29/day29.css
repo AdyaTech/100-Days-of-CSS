@@ -1,0 +1,100 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,500,400);
+
+// use only the available space inside the 400x400 frame
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #5ca4ea;
+    color: #333;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.search {
+    position: relative;
+    display: flex;
+    background: white;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: min(70%, 800px);
+    margin: 0 auto;
+
+    input {
+        flex: 1;
+        border: 0;
+        outline: 0;
+        width: 0;
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
+        color: #4d8dcb;
+        font-weight: 600;
+
+        &::placeholder {
+            color: #ccc;
+        }
+    }
+
+    .icon {
+        stroke-width: 2;
+        width: fit-content;
+    }
+}
+
+.results {
+    position: absolute;
+    left: max(15%, 100% - 800px);
+    z-index: 2;
+    width: min(70%, 800px);
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #5ca4ea;
+    padding-inline: 1.5rem 1rem;
+    font-size: 1.5rem;
+
+    p {
+        cursor: pointer;
+        margin-block: 2rem;
+        color: hsl(0, 0, 50%);
+        font-weight: 400;
+        transition: all 0.2s;
+
+        &:hover {
+            color: #5ca4ea;
+        }
+
+        span {
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+    }
+}
