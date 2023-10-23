@@ -33,6 +33,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 28 | RingaRing |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2028)|
 | 29 | Search Field |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2029)|
 | 30 | Random Line |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2030)|
+| 31 | Pendulum Wave |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2031)|
 
 ## Output
 1. 100 Days
@@ -154,3 +155,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 30. Random Line
         
 ![Day 30](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2030/video.gif)
+
+31. Pendulum Wave
+        
+![Day 31](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2031/video.gif)
