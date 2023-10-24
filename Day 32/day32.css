@@ -1,0 +1,140 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+// use only the available space inside the 400x400 frame
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: linear-gradient(45deg, #D2592A, #FCAE3A);
+  color: #69859F;
+	font-weight: 700;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center {
+	background: #FFFFFF;
+	height: 40px;
+	width: 140px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 5px 5px 5px #00000033;
+}
+
+.number {
+	font-size: 20px;
+}
+
+.number-increase {
+	animation-name: grow;
+	animation-duration: .5s;
+}
+
+@keyframes grow {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0;
+		transform: scale(1.5);
+	}
+	51% {
+		transform: scale(0.5);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.number-decrease {
+	animation-name: shrink;
+	animation-duration: .5s;
+}
+
+@keyframes shrink {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+	50% {
+		opacity: 0;
+		transform: scale(0.5);
+	}
+	51% {
+		transform: scale(1.5);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+button {
+	border: none;
+	height: 32px;
+	width: 32px;
+	border-radius: 16px;
+	margin: 4px;
+	background: none;
+	cursor: pointer;
+	transition: background .3s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	&:hover {
+		.minus-sign, .plus-sign-1, .plus-sign-2 {
+			background: #FFFFFF;
+		}
+	}
+}
+
+.minus {
+	.minus-sign {
+		height: 2px;
+		width: 18px;
+		background: #E26D6D;
+	}
+
+	&:hover {
+		background: #E26D6D;
+	}
+}
+
+.plus {
+	.plus-sign-1 {
+		position: absolute;
+		height: 2px;
+		width: 18px;
+		background: #8ED273;
+	}
+
+	.plus-sign-2 {
+		height: 18px;
+		width: 2px;
+		background: #8ED273;
+	}
+	
+	&:hover {
+		background: #8ED273;
+	}
+}
+
+
