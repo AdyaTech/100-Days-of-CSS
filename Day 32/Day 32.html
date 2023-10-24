@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS DAY 32</title>
+        <link rel="stylesheet" href="day32.css">
+    </head>
+
+    <body>
+        <div class="frame">
+            <div class="center">
+                  <button onClick="decreaseCount()" class="minus">
+                      <div class="minus-sign"></div>
+                  </button>
+                  <p id="number" class="number">0</p>
+                  <button onClick="increaseCount()" class="plus">
+                      <div class="plus-sign-1"></div>
+                      <div class="plus-sign-2"></div>		
+                  </button>
+            </div>
+          </div>
+    <script>
+let counter = 0;
+
+const displayedNumber = document.getElementById('number')
+
+const changeDisplay = () => displayedNumber.innerHTML = counter;
+
+const increaseCount = () => {
+	counter++;
+	displayedNumber.classList.add('number-increase');
+	setTimeout(() => {
+		changeDisplay();
+	}, 250)
+	setTimeout(() => {
+		displayedNumber.classList.remove('number-increase');
+	}, 500)
+}
+
+const decreaseCount = () => {
+	counter--;
+	displayedNumber.classList.add('number-decrease');
+	setTimeout(() => {
+		changeDisplay();
+	}, 250)
+	setTimeout(() => {
+		displayedNumber.classList.remove('number-decrease');
+	}, 500)
+}
+
+changeDisplay();
+    </script>
+
+    </body>
+</html>
