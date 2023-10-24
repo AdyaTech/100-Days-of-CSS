@@ -34,6 +34,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 29 | Search Field |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2029)|
 | 30 | Random Line |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2030)|
 | 31 | Pendulum Wave |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2031)|
+| 32 | Counter |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2032)|
 
 ## Output
 1. 100 Days
@@ -159,3 +160,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 31. Pendulum Wave
         
 ![Day 31](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2031/video.gif)
+
+32. Counter
+        
+![Day 32](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2032/video.gif)
