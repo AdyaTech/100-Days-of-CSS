@@ -36,6 +36,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 31 | Pendulum Wave |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2031)|
 | 32 | Counter |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2032)|
 | 33 | Sunny Day |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2033)|
+| 34 | Hello |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2034)|
 
 ## Output
 1. 100 Days
@@ -169,3 +170,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 33. Sunny Day
         
 ![Day 33](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2033/video.gif)
+
+34. Hello
+        
+![Day 34](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2034/video.gif)
