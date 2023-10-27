@@ -37,6 +37,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 32 | Counter |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2032)|
 | 33 | Sunny Day |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2033)|
 | 34 | Hello |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2034)|
+| 35 | Loading Circle |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2035)|
 
 ## Output
 1. 100 Days
@@ -174,3 +175,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 34. Hello
         
 ![Day 34](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2034/video.gif)
+
+35. Loading Circle
+        
+![Day 35](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2035/video.gif)
