@@ -1,0 +1,95 @@
+@import url(https://100dayscss.com/codepen/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+:root {
+  --action-items-size: 40px;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: rgba(43, 54, 66, 1);
+  display: grid;
+  place-items: center;
+}
+
+.dash_board {
+  width: 320px;
+  height: 240px;
+  background-color: white;
+}
+
+.dash_board_header {
+  background-color: #3e4d5e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dash_board_header_actions--left {
+  display: flex;
+}
+
+.dash_board_header_actions_button>label {
+  height: var(--action-items-size, 40px);
+  width: var(--action-items-size, 40px);
+  display: grid;
+  place-items: center;
+}
+
+.dash_board_header_actions_button>label:hover {
+  color: white;
+  cursor:pointer;
+}
+
+.dash_board_header_actions_button > input {
+  display: none;
+}
+
+.dash_board_header_actions_button {
+  color: #8398ad;
+}
+
+.dash_board_header_actions_button:has(input[type="radio"]:checked) {
+  background-color: #5ea2ed;
+  color: white;
+}
+.dash_board_content > .dash_board_content_box {
+  display: none;
+}
+.dash_board_header:has(#tab-1:checked) + .dash_board_content > #cnt1 {
+  display: block;
+}
+.dash_board_header:has(#tab-2:checked) + .dash_board_content > #cnt2 {
+  display: block;
+}
+.dash_board_header:has(#tab-3:checked) + .dash_board_content > #cnt3 {
+  display: block;
+}
+.dash_board_header:has(#tab-4:checked) + .dash_board_content > #cnt4 {
+  display: block;
+}
+.dash_board_content_box {
+  padding: 25px;
+  & span {
+    display: block;
+    height: 4px;
+    background: #e9e9e9;
+    margin: 6px 0;
+  }
+}
+
+.dash_board_content_box h1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #415868;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
