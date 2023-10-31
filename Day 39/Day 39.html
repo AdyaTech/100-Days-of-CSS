@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS DAY 39</title>
+        <link rel="stylesheet" href="day39.css">
+    </head>
+
+    <body>
+        
+        <div class="frame">
+            <div class="menu-icon paused">
+              <div class="line-top"></div>
+              <div class="line-bottom"></div>
+            </div>
+            <div class="menu">
+              <ul>
+                <li><span>Home</span></li>
+                <li><span>Work</span></li>
+                <li><span>Life</span></li>
+                <li><span>Spirit</span></li>
+              </ul>
+            </div>
+          </div>
+    <script>
+// Selecting elements
+const menuIcons = document.querySelectorAll('.menu-icon');
+const menus = document.querySelectorAll('.menu');
+
+// Adding click event listener to menu icons
+menuIcons.forEach(function(menuIcon) {
+  menuIcon.addEventListener('click', function() {
+    // Remove 'paused' class and add 'active' class
+    menuIcons.forEach(function(icon) {
+      icon.classList.remove('paused');
+      icon.classList.add('active');
+    });
+
+    // Remove 'paused' class and add 'active' class
+    menus.forEach(function(menu) {
+      menu.classList.remove('paused');
+      menu.classList.add('active');
+    });
+  });
+});
+
+// Adding click event listener to menus
+menus.forEach(function(menu) {
+  menu.addEventListener('click', function() {
+    // Remove 'active' class
+    menuIcons.forEach(function(icon) {
+      icon.classList.remove('active');
+    });
+
+    // Remove 'active' class
+    menus.forEach(function(menu) {
+      menu.classList.remove('active');
+    });
+  });
+});
+    </script>
+
+    </body>
+</html>
