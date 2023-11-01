@@ -42,6 +42,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 37 | Carousel |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2037)|
 | 38 | Logo Transition |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2038)|
 | 39 | Menu Toggle |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2039)|
+| 40 | Gallery |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2040)|
 
 ## Output
 1. 100 Days
@@ -199,3 +200,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 39. Menu Toggle
         
 ![Day 39](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2039/video.gif)
+
+40. Gallery
+        
+![Day 40](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2040/video.gif)
