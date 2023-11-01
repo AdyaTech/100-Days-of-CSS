@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS DAY 40</title>
+        <link rel="stylesheet" href="day40.css">
+    </head>
+
+    <body>
+        <div class="frame">
+            <div class="image">
+                <img src="https://i.pinimg.com/564x/86/dc/23/86dc232856952880b1ec8494ca10032b.jpg" alt="miyamoto musashi" width="190px" height="190px">
+                <div class="overlay"></div>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/736x/9b/e3/08/9be3086b69b2e3fbfcaca477721eaac1.jpg" alt="" width="190px" height="190px">
+                <div class="overlay"></div>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/736x/cb/ea/1c/cbea1c35acaf214cd2af570e4d09d177.jpg" alt="" width="190px" height="190px">
+                <div class="overlay"></div>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/564x/ec/b2/f1/ecb2f194ef1128afa6794ff05362231b.jpg" alt="" width="190px" height="190px">
+                <div class="overlay"></div>
+            </div>
+          </div>
+    
+          <script>const pics = document.querySelectorAll('.pic')
+
+            pics.forEach(pic => {
+                pic.addEventListener('click', function() {
+                    pic.classList.toggle('away')
+            
+                    pic.classList.remove('away')
+                    pic.classList.toggle('active')
+                })
+            })
+            </script>
+    </body>
+</html>
