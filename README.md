@@ -43,6 +43,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 38 | Logo Transition |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2038)|
 | 39 | Menu Toggle |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2039)|
 | 40 | Gallery |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2040)|
+| 41 | Error Modal |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2041)|
 
 ## Output
 1. 100 Days
@@ -204,3 +205,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 40. Gallery
         
 ![Day 40](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2040/video.gif)
+
+41. Error Model
+        
+![Day 41](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2041/image.png)
