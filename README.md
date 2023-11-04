@@ -45,6 +45,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 40 | Gallery |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2040)|
 | 41 | Error Modal |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2041)|
 | 42 | Stars |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2042)|
+| 43 | Lightbulb |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2043)|
 
 ## Output
 1. 100 Days
@@ -214,3 +215,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 42. Stars
         
 ![Day 42](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2042/video.gif)
+
+43. Lightbulb
+        
+![Day 43](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2043/video.gif)
