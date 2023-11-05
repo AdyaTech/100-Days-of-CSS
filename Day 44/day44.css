@@ -1,0 +1,187 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: rgb(46, 45, 45);
+	justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.square1 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    animation: rotate 2s ease-in-out 0.03333s infinite alternate;
+}
+
+.square2 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.946);
+    animation: rotate 2s ease-in-out 0.06666s infinite alternate;
+}
+
+.square3 {
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.877);
+    animation: rotate 2s ease-in-out 0.09999s infinite alternate;
+}
+
+.square4 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.807);
+    animation: rotate 2s ease-in-out 0.13333s infinite alternate;
+}
+
+.square5 {
+    width: 75px;
+    height: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.731);
+    animation: rotate 2s ease-in-out 0.16666s infinite alternate;
+}
+
+.square6 {
+    width: 90px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.668);
+    animation: rotate 2s ease-in-out 0.19999s infinite alternate;
+}
+
+.square7 {
+    width: 105px;
+    height: 105px;
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    animation: rotate 2s ease-in-out 0.23333s infinite alternate;
+}
+
+.square8 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.487);
+    animation: rotate 2s ease-in-out 0.26666s infinite alternate;
+}
+
+.square9 {
+    width: 135px;
+    height: 135px;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    animation: rotate 2s ease-in-out 0.29999s infinite alternate;
+}
+
+.square10 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.554);
+    animation: rotate 2s ease-in-out 0.33333s infinite alternate;
+}
+
+.square11 {
+    width: 165px;
+    height: 165px;
+    border: 1px solid rgba(255, 255, 255, 0.433);
+    animation: rotate 2s ease-in-out 0.36666s infinite alternate;
+}
+
+.square12 {
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    animation: rotate 2s ease-in-out 0.39999s infinite alternate;
+}
+
+.square13 {
+    width: 195px;
+    height: 195px;
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    animation: rotate 2s ease-in-out 0.43333s infinite alternate;
+}
+
+.square14 {
+    width: 210px;
+    height: 210px;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    animation: rotate 2s ease-in-out 0.46666s infinite alternate;
+}
+
+.square15 {
+    width: 225px;
+    height: 225px;
+    border: 1px solid rgba(255, 255, 255, 0.313);
+    animation: rotate 2s ease-in-out 0.49999s infinite alternate;
+}
+
+.square16 {
+    width: 240px;
+    height: 240px;
+    border: 1px solid rgba(255, 255, 255, 0.26);
+    animation: rotate 2s ease-in-out 0.53333s infinite alternate;
+}
+
+.square17 {
+    width: 255px;
+    height: 255px;
+    border: 1px solid rgba(255, 255, 255, 0.203);
+    animation: rotate 2s ease-in-out 0.56666s infinite alternate;
+}
+
+.square18 {
+    width: 270px;
+    height: 270px;
+    border: 1px solid rgba(255, 255, 255, 0.176);
+    animation: rotate 2s ease-in-out 0.59999s infinite alternate;
+}
+
+.square19 {
+    width: 285px;
+    height: 285px;
+    border: 1px solid rgba(255, 255, 255, 0.132);
+    animation: rotate 2s ease-in-out 0.63333s infinite alternate;
+}
+
+.square20 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.047);
+    animation: rotate 2s ease-in-out 0.66666s infinite alternate;
+}
+
+@keyframes rotate{
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg)
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg)      
+    }
+}
