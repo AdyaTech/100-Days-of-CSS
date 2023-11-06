@@ -47,6 +47,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 42 | Stars |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2042)|
 | 43 | Lightbulb |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2043)|
 | 44 | Twisted Pyramid |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2044)|
+| 45 | Hover Me |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2045)|
 
 ## Output
 1. 100 Days
@@ -224,3 +225,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 44. Twisted Pyramid
         
 ![Day 44](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2044/video.gif)
+
+45. Hover Me
+        
+![Day 45](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2045/video.gif)
