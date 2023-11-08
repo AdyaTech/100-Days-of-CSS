@@ -238,4 +238,4 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 
 47. Pixel Art
         
-![Day 47](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2047/video.gif)
+![Day 47](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2047/video.mp4)
