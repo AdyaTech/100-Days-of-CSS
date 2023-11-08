@@ -49,6 +49,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 44 | Twisted Pyramid |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2044)|
 | 45 | Hover Me |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2045)|
 | 46 | Iris Circles |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2046)|
+| 47 | Pixel Art |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2047)|
 
 ## Output
 1. 100 Days
@@ -234,3 +235,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 46. Iris Circle
         
 ![Day 46](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2046/video.gif)
+
+47. Pixel Art
+        
+![Day 47](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2047/video.gif)
