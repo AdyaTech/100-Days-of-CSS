@@ -50,6 +50,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 45 | Hover Me |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2045)|
 | 46 | Iris Circles |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2046)|
 | 47 | Pixel Art |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2047)|
+| 48 | 3D Rubik's Cube |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2048)|
 
 ## Output
 1. 100 Days
@@ -239,3 +240,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 47. Pixel Art
         
 ![Day 47](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2047/video.mp4)
+
+48. 3D Rubik's Cube
+        
+![Day 48](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2048/video.gif)
