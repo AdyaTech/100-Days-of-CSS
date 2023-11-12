@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700');
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #313C46;
+  color: #333;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 4px;
+  width: 100px;
+  height: 33px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 240px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.play {
+  position: absolute;
+  left: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0px 10px 16px;
+  border-color: transparent transparent transparent #FFF;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.25s ease-in, transform 0.25s;
+}
+
+.pause {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20px;
+  height: 20px;
+  transition: opacity 0.25s ease-in, transform 0.25s;
+}
+
+
+.button.paused .pause {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.button.paused .play {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.25s ease-in, transform 0.25s ease;
+}
+
+
+.pause .pause-line {
+  width: 4px;
+  height: 100%;
+  background-color: white;
+}
+
+.numbers {
+  position: absolute;
+  height: 400px;
+  text-align: center;
+}
+
+.numbers p {
+  height: 40px;
+  width: 25px;
+  margin: 0;
+  font-size: 27px;
+}
+
+.numbers.thousands {
+  left: 5px
+}
+
+.numbers.hundreds {
+  left: 27px
+}
+
+.numbers.tens {
+  left: 48px
+}
+
+.numbers.ones {
+  left: 70px
+}
+
+.numbers.ones{
+  animation: count 0.5s steps(1) infinite
+}
+.numbers.tens{
+  animation: count 5s steps(1) infinite
+}
+.numbers.numbers.hundreds{
+  animation: count 50s steps(1) infinite
+}
+.numbers.numbers.numbers.thousands{
+  animation: count 500s steps(1) infinite
+}
+
+.button.paused ~.counter .numbers{
+  animation-play-state: paused;
+}
+
+
+
+@keyframes count{
+  0%{transform: translateY(0px);}
+  10%{transform: translateY(-40px);}
+  20%{transform: translateY(-80px);}
+  30%{transform: translateY(-120px);}
+  40%{transform: translateY(-160px);}
+  50%{transform: translateY(-200px);}
+  60%{transform: translateY(-240px);}
+  70%{transform: translateY(-280px);}
+  80%{transform: translateY(-320px);}
+  90%{transform: translateY(-360px);}
+}
