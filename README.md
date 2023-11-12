@@ -53,6 +53,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 48 | 3D Rubik's Cube |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2048)|
 | 49 | CSS Follow |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2049)|
 | 50 | Easter Egg |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2050)|
+| 51 | CSS Counter |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2051)|
 
 ## Output
 1. 100 Days
@@ -254,3 +255,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 50. Easter Egg
         
 ![Day 50](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2050/video.gif)
+
+51. CSS Counter
+        
+![Day 51](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2051/video.gif)
