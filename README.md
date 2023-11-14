@@ -55,6 +55,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 50 | Easter Egg |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2050)|
 | 51 | CSS Counter |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2051)|
 | 52 | Dot Wave |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2052)|
+| 53 | Range Slider |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2053)|
 
 ## Output
 1. 100 Days
@@ -264,3 +265,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 52. Dot Wave
         
 ![Day 52](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2052/video.gif)
+
+53. Range Slider
+        
+![Day 53](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2053/video.gif)
