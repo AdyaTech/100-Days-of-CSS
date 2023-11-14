@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+}
+
+body,
+.frame,
+.center,
+.slider-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame {
+    width: 400px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    background: #506172;
+}
+
+.slider-box {
+    background: #fff;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+#slider {
+    appearance: none;
+    width: 270px;
+    height: 4px;
+    border-radius: 10px;
+    background: #0fff50;
+    cursor: pointer;
+    color: transparent;
+}
+
+#slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    background: #fff url(https://100dayscss.com/codepen/slider-thumb.png) center no-repeat;
+    background-size: 70%;
+    border: solid 2px #0fff50;
+}
