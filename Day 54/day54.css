@@ -1,0 +1,119 @@
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+    background: #263A4D;
+    color: #fff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.wave {
+    position: absolute;
+    left: -50px;
+
+    height: 150px;
+    width: 500px;
+    background: #fff;
+}
+
+.circle {
+    position: relative;
+    top: -24px;
+    float: left;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.circle:nth-child(2n+2) {
+    top: -26px;
+}
+
+
+.wave-back {
+    top: 225px;
+    background: #406384;
+    animation: wave-back 4s ease-in-out alternate infinite;
+}
+
+.wave-back .circle {
+    background: #406384;
+}
+
+.wave-back .circle:nth-child(2n+2) {
+    background: #263A4D;
+}
+
+
+.wave-middle {
+    top: 280px;
+    background: #5D90BF;
+    animation: wave-middle 4s ease-in-out alternate infinite;
+}
+
+.wave-middle .circle {
+    background: #5D90BF;
+}
+
+.wave-middle .circle:nth-child(2n+2) {
+    background: #406384;
+}
+
+
+.wave-front {
+    top: 335px;
+    background: #7EB3E6;
+    animation: wave-front 4s ease-in-out alternate infinite;
+}
+
+.wave-front .circle {
+    background: #7EB3E6;
+}
+
+.wave-front .circle:nth-child(2n+2) {
+    background: #5D90BF;
+}
+
+
+
+
+@keyframes wave-back {
+    from {
+        transform: translate3d(-20px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(20px, 0, 0);
+    }
+}
+
+@keyframes wave-middle {
+    from {
+        transform: translate3d(10px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(-10px, 0, 0);
+    }
+}
+
+@keyframes wave-front {
+    from {
+        transform: translate3d(-50px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(50px, 0, 0);
+    }
+}
