@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS DAY 56</title>
+        <link rel="stylesheet" href="day56.css">
+    </head>
+
+    <body>
+
+<div id="app">
+    <div class="frame">
+        <div class="flower"></div>
+      </div>
+
+      <script>
+        const flower = document.querySelector('.flower')
+
+        for(let i=0;i<=15;i++){
+            const petal = document.createElement('div')
+            flower.appendChild(petal)
+            petal.className = 'petal petal-' + i;
+        }
+        
+        const dot = document.createElement('div')
+        flower.appendChild(dot)
+        dot.className = 'dot'
+      </script>
+    </body>
+</html>
