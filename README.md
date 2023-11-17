@@ -58,6 +58,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 53 | Range Slider |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2053)|
 | 54 | Waves |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2054)|
 | 55 | Thermostat |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2055)|
+| 56 | Flower |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2056)|
 
 ## Output
 1. 100 Days
@@ -279,3 +280,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 55. Thermostat
         
 ![Day 55](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2055/image.png)
+
+56. Flower
+        
+![Day 56](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2056/video.gif)
