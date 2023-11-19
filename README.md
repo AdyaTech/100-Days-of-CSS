@@ -60,6 +60,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 55 | Thermostat |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2055)|
 | 56 | Flower |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2056)|
 | 57 | Icosahedron |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2057)|
+| 58 | 3D Sphere |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2058)|
 
 ## Output
 1. 100 Days
@@ -289,3 +290,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 57. Icosahedron
         
 ![Day 57](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2057/video.gif)
+
+58. 3D Sphere
+        
+![Day 58](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2058/video.gif)
