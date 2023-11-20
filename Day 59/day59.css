@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.background-img {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    background: url("https://100dayscss.com/codepen/slice-image-1.jpg") center no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.519);
+  }
+
+h1,
+h2 {
+    color: white;
+    opacity: 1;
+    transition: all 0.8s linear;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+h1 {
+    font-size: 60px;
+    top: 0;
+}
+
+h2 {
+    font-size: 40px;
+    transform: translateY(-15px);
+}
+
+.slice {
+    width: 40px;
+    height: 100%;
+    z-index: 2;
+    box-sizing: border-box;
+    background: url("https://100dayscss.com/codepen/slice-image-2.jpg") no-repeat;
+    opacity: 0;
+    background-size: 400px 400px;
+    transition: all 1s ease-in-out;
+}
+
+.background-img:hover .slice {
+    transform: translateY(0) !important;
+    opacity: 1;
+  }
+
+.background-img:hover h1 {
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.background-img:hover h2 {
+    transform: translateX(50%) translateY(-15px);
+    opacity: 0;
+}
+
+.slice:nth-of-type(even) {
+    transform: translateY(40px);
+}
+
+.slice:nth-of-type(odd) {
+    transform: translateY(-40px);
+}
+
+.slice:nth-of-type(1) {
+    background-position: 0px 0;
+}
+
+.slice:nth-of-type(2) {
+    background-position: -40px 0;
+}
+
+.slice:nth-of-type(3) {
+    background-position: -80px 0;
+}
+
+.slice:nth-of-type(4) {
+    background-position: -120px 0;
+}
+
+.slice:nth-of-type(5) {
+    background-position: -160px 0;
+}
+
+.slice:nth-of-type(6) {
+    background-position: -200px 0;
+}
+
+.slice:nth-of-type(7) {
+    background-position: -240px 0;
+}
+
+.slice:nth-of-type(8) {
+    background-position: -280px 0;
+}
+
+.slice:nth-of-type(9) {
+    background-position: -320px 0;
+}
+
+.slice:nth-of-type(10) {
+    background-position: -360px 0;
+}
