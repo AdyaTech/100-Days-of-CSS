@@ -61,6 +61,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 56 | Flower |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2056)|
 | 57 | Icosahedron |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2057)|
 | 58 | 3D Sphere |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2058)|
+| 59 | Slice Transition |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2059)|
 
 ## Output
 1. 100 Days
@@ -294,3 +295,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 58. 3D Sphere
         
 ![Day 58](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2058/video.gif)
+
+59. Slice Transition
+        
+![Day 59](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2059/video.gif)
