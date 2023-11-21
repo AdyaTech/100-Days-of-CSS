@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS DAY 60</title>
+    <link rel="stylesheet" href="day60.css">
+</head>
+
+<body>
+    <div class="frame">
+        <div class="center">
+            <p class="text">hover</p>
+        </div>
+        <div class="box-overlay"></div>
+    </div>
+
+    <script>
+        const frame = document.querySelector(".frame");
+        const curtain = document.querySelector(".box-overlay");
+        document.addEventListener("DOMContentLoaded", (event) => {
+            mouseEvent();
+        });
+        function mouseEvent() {
+            frame.addEventListener("mousemove", (e) => {
+                curtain.style.height = `${e.offsetY / 4}%`;
+            });
+            frame.addEventListener("mouseleave", (e) => {
+                curtain.style.height = `50%`;
+            });
+        }
+
+    </script>
+</body>
+
+</html>
