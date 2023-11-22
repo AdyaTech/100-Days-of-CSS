@@ -63,6 +63,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 58 | 3D Sphere |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2058)|
 | 59 | Slice Transition |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2059)|
 | 60 | Blurry Overlay |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2060)|
+| 61 | CSS Gradient Transition |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2061)|
 
 ## Output
 1. 100 Days
@@ -304,3 +305,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 60. Blurry Overlay
         
 ![Day 60](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2060/video.gif)
+
+61. CSS Gradient Transition
+        
+![Day 61](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2061/video.gif)
