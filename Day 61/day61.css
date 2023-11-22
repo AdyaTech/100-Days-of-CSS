@@ -1,0 +1,35 @@
+.frame { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+display: grid; 
+place-items: center; 
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+color: yellow; 
+} 
+
+.gradient-background {
+width: 400px;
+height: 400px;
+background: linear-gradient(135deg,#2b7ead,#458ba3,#58d2ae,#de9f25);
+background-size: 240% 240%;
+animation: gradient-animation 7s ease infinite;
+}
+
+@keyframes gradient-animation {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
