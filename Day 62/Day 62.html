@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS DAY 62</title>
+    <link rel="stylesheet" href="day62.css">
+</head>
+
+<body>
+    <div class="frame">
+        <div class="center">
+            <div class="offer">
+                <div class="basic" id="basic">
+                    <div class="basic-header">Basic</div>
+                    <h1>$5</h1>
+                    <p>per month</p>
+                    <hr class="hr1">
+                    <hr class="hr2">
+                    <hr class="hr1">
+                    <hr class="hr2">
+                </div>
+                <div class="pro" id="pro">
+                    <div class="pro-header">Pro</div>
+                    <h1>$10</h1>
+                    <p>per month</p>
+                    <hr class="hr1">
+                    <hr class="hr2">
+                    <hr class="hr1">
+                    <hr class="hr2">
+                </div>
+                <div class="premium" id="premium">
+                    <div class="premium-header">Premium</div>
+                    <h1>$20</h1>
+                    <p>per month</p>
+                    <hr class="hr1">
+                    <hr class="hr2">
+                    <hr class="hr1">
+                    <hr class="hr2">
+                </div>
+            </div>
+            <div class="description">
+                <label>
+                    <span class="left-span">5 Users</span> <span class="right-span"> 100 Users</span>
+                </label>
+                <input type="range" id="colorRange-1" min="5" max="100" />
+                <label>
+                    <span class="left-span">20GB</span> <span class="right-span">200GB</span>
+                </label>
+                <input type="range" id="colorRange-2" min="20" max="200" />
+                <label>
+                    <span class="left-span">1 Project</span> <span class="right-span"> 50 Projects</span>
+                </label>
+                <input type="range" id="colorRange-3" min="1" max="50" />
+            </div>
+        </div>
+    </div>
+
+    <script>    const rangeBasic = document.getElementById("colorRange-1");
+
+        document.getElementById("basic").addEventListener("mouseenter", function () {
+            rangeBasic.value = 10;
+            const percent = ((rangeBasic.value - rangeBasic.min) / (rangeBasic.max - rangeBasic.min)) * 100;
+            rangeBasic.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("basic").addEventListener("mouseleave", function () {
+            rangeBasic.value = 5;
+            rangeBasic.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("pro").addEventListener("mouseenter", function () {
+            rangeBasic.value = 40;
+            const percent = ((rangeBasic.value - rangeBasic.min) / (rangeBasic.max - rangeBasic.min)) * 100;
+            rangeBasic.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("pro").addEventListener("mouseleave", function () {
+            rangeBasic.value = 5;
+            rangeBasic.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("premium").addEventListener("mouseenter", function () {
+            rangeBasic.value = 100;
+            const percent = ((rangeBasic.value - rangeBasic.min) / (rangeBasic.max - rangeBasic.min)) * 100;
+            rangeBasic.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("premium").addEventListener("mouseleave", function () {
+            rangeBasic.value = 5;
+            rangeBasic.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        const rangePro = document.getElementById("colorRange-2");
+
+        document.getElementById("basic").addEventListener("mouseenter", function () {
+            rangePro.value = 30;
+            const percent = ((rangePro.value - rangePro.min) / (rangePro.max - rangePro.min)) * 100;
+            rangePro.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("basic").addEventListener("mouseleave", function () {
+            rangePro.value = 20;
+            rangePro.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("pro").addEventListener("mouseenter", function () {
+            rangePro.value = 160;
+            const percent = ((rangePro.value - rangePro.min) / (rangePro.max - rangePro.min)) * 100;
+            rangePro.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("pro").addEventListener("mouseleave", function () {
+            rangePro.value = 20;
+            rangePro.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("premium").addEventListener("mouseenter", function () {
+            rangePro.value = 200;
+            const percent = ((rangePro.value - rangePro.min) / (rangePro.max - rangePro.min)) * 100;
+            rangePro.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("premium").addEventListener("mouseleave", function () {
+            rangePro.value = 20;
+            rangePro.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        const rangePremium = document.getElementById("colorRange-3");
+
+        document.getElementById("basic").addEventListener("mouseenter", function () {
+            rangePremium.value = 4;
+            const percent = ((rangePremium.value - rangePremium.min) / (rangePremium.max - rangePremium.min)) * 100;
+            rangePremium.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("basic").addEventListener("mouseleave", function () {
+            rangePremium.value = 1;
+            rangePremium.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("pro").addEventListener("mouseenter", function () {
+            rangePremium.value = 25;
+            const percent = ((rangePremium.value - rangePremium.min) / (rangePremium.max - rangePremium.min)) * 100;
+            rangePremium.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("pro").addEventListener("mouseleave", function () {
+            rangePremium.value = 1;
+            rangePremium.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("premium").addEventListener("mouseenter", function () {
+            rangePremium.value = 50;
+            const percent = ((rangePremium.value - rangePremium.min) / (rangePremium.max - rangePremium.min)) * 100;
+            rangePremium.style.background = `linear-gradient(to right, rgb(82, 187, 222) 0%, rgb(82, 187, 222) ${percent}%, rgba(158, 169, 180, 0.305) ${percent}%, rgba(158, 169, 180, 0.305) 100%)`;
+        });
+
+        document.getElementById("premium").addEventListener("mouseleave", function () {
+            rangePremium.value = 1;
+            rangePremium.style.background = `linear-gradient(to right, rgba(158, 169, 180, 0.305) 0%, rgba(158, 169, 180, 0.305) 100%)`;
+        });</script>
+</body>
+
+</html>
