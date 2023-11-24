@@ -65,6 +65,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 60 | Blurry Overlay |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2060)|
 | 61 | CSS Gradient Transition |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2061)|
 | 62 | Price Table |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2062)|
+| 63| Hypnotic Ring |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2063)|
 
 ## Output
 1. 100 Days
@@ -314,3 +315,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 62. Price Table
         
 ![Day 62](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2062/video.gif)
+
+63. Hypnotic Ring
+        
+![Day 63](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2063/video.gif)
