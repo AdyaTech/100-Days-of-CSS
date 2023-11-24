@@ -1,0 +1,335 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: block;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  width: 100%;
+  height: 400px;
+  max-width: 400px;
+  background-color: #27ae60;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 82px;
+  left: 68px;
+  border: 5px dotted #fff;
+  border-radius: 50%;
+}
+.circle.c1 {
+  -webkit-animation: circle 10s ease-in-out -0.25s infinite;
+          animation: circle 10s ease-in-out -0.25s infinite;
+  z-index: 1;
+}
+.circle.c2 {
+  -webkit-animation: circle 10s ease-in-out -0.5s infinite;
+          animation: circle 10s ease-in-out -0.5s infinite;
+  z-index: 2;
+}
+.circle.c3 {
+  -webkit-animation: circle 10s ease-in-out -0.75s infinite;
+          animation: circle 10s ease-in-out -0.75s infinite;
+  z-index: 3;
+}
+.circle.c4 {
+  -webkit-animation: circle 10s ease-in-out -1s infinite;
+          animation: circle 10s ease-in-out -1s infinite;
+  z-index: 4;
+}
+.circle.c5 {
+  -webkit-animation: circle 10s ease-in-out -1.25s infinite;
+          animation: circle 10s ease-in-out -1.25s infinite;
+  z-index: 5;
+}
+.circle.c6 {
+  -webkit-animation: circle 10s ease-in-out -1.5s infinite;
+          animation: circle 10s ease-in-out -1.5s infinite;
+  z-index: 6;
+}
+.circle.c7 {
+  -webkit-animation: circle 10s ease-in-out -1.75s infinite;
+          animation: circle 10s ease-in-out -1.75s infinite;
+  z-index: 7;
+}
+.circle.c8 {
+  -webkit-animation: circle 10s ease-in-out -2s infinite;
+          animation: circle 10s ease-in-out -2s infinite;
+  z-index: 8;
+}
+.circle.c9 {
+  -webkit-animation: circle 10s ease-in-out -2.25s infinite;
+          animation: circle 10s ease-in-out -2.25s infinite;
+  z-index: 9;
+}
+.circle.c10 {
+  -webkit-animation: circle 10s ease-in-out -2.5s infinite;
+          animation: circle 10s ease-in-out -2.5s infinite;
+  z-index: 10;
+}
+.circle.c11 {
+  -webkit-animation: circle 10s ease-in-out -2.75s infinite;
+          animation: circle 10s ease-in-out -2.75s infinite;
+  z-index: 11;
+}
+.circle.c12 {
+  -webkit-animation: circle 10s ease-in-out -3s infinite;
+          animation: circle 10s ease-in-out -3s infinite;
+  z-index: 12;
+}
+.circle.c13 {
+  -webkit-animation: circle 10s ease-in-out -3.25s infinite;
+          animation: circle 10s ease-in-out -3.25s infinite;
+  z-index: 13;
+}
+.circle.c14 {
+  -webkit-animation: circle 10s ease-in-out -3.5s infinite;
+          animation: circle 10s ease-in-out -3.5s infinite;
+  z-index: 14;
+}
+.circle.c15 {
+  -webkit-animation: circle 10s ease-in-out -3.75s infinite;
+          animation: circle 10s ease-in-out -3.75s infinite;
+  z-index: 15;
+}
+.circle.c16 {
+  -webkit-animation: circle 10s ease-in-out -4s infinite;
+          animation: circle 10s ease-in-out -4s infinite;
+  z-index: 16;
+}
+.circle.c17 {
+  -webkit-animation: circle 10s ease-in-out -4.25s infinite;
+          animation: circle 10s ease-in-out -4.25s infinite;
+  z-index: 17;
+}
+.circle.c18 {
+  -webkit-animation: circle 10s ease-in-out -4.5s infinite;
+          animation: circle 10s ease-in-out -4.5s infinite;
+  z-index: 18;
+}
+.circle.c19 {
+  -webkit-animation: circle 10s ease-in-out -4.75s infinite;
+          animation: circle 10s ease-in-out -4.75s infinite;
+  z-index: 19;
+}
+.circle.c20 {
+  -webkit-animation: circle 10s ease-in-out -5s infinite;
+          animation: circle 10s ease-in-out -5s infinite;
+  z-index: 20;
+}
+.circle.c21 {
+  -webkit-animation: circle 10s ease-in-out -5.25s infinite;
+          animation: circle 10s ease-in-out -5.25s infinite;
+  z-index: 21;
+}
+.circle.c22 {
+  -webkit-animation: circle 10s ease-in-out -5.5s infinite;
+          animation: circle 10s ease-in-out -5.5s infinite;
+  z-index: 22;
+}
+.circle.c23 {
+  -webkit-animation: circle 10s ease-in-out -5.75s infinite;
+          animation: circle 10s ease-in-out -5.75s infinite;
+  z-index: 23;
+}
+.circle.c24 {
+  -webkit-animation: circle 10s ease-in-out -6s infinite;
+          animation: circle 10s ease-in-out -6s infinite;
+  z-index: 24;
+}
+.circle.c25 {
+  -webkit-animation: circle 10s ease-in-out -6.25s infinite;
+          animation: circle 10s ease-in-out -6.25s infinite;
+  z-index: 25;
+}
+.circle.c26 {
+  -webkit-animation: circle 10s ease-in-out -6.5s infinite;
+          animation: circle 10s ease-in-out -6.5s infinite;
+  z-index: 26;
+}
+.circle.c27 {
+  -webkit-animation: circle 10s ease-in-out -6.75s infinite;
+          animation: circle 10s ease-in-out -6.75s infinite;
+  z-index: 27;
+}
+.circle.c28 {
+  -webkit-animation: circle 10s ease-in-out -7s infinite;
+          animation: circle 10s ease-in-out -7s infinite;
+  z-index: 28;
+}
+.circle.c29 {
+  -webkit-animation: circle 10s ease-in-out -7.25s infinite;
+          animation: circle 10s ease-in-out -7.25s infinite;
+  z-index: 29;
+}
+.circle.c30 {
+  -webkit-animation: circle 10s ease-in-out -7.5s infinite;
+          animation: circle 10s ease-in-out -7.5s infinite;
+  z-index: 30;
+}
+.circle.c31 {
+  -webkit-animation: circle 10s ease-in-out -7.75s infinite;
+          animation: circle 10s ease-in-out -7.75s infinite;
+  z-index: 31;
+}
+.circle.c32 {
+  -webkit-animation: circle 10s ease-in-out -8s infinite;
+          animation: circle 10s ease-in-out -8s infinite;
+  z-index: 32;
+}
+.circle.c33 {
+  -webkit-animation: circle 10s ease-in-out -8.25s infinite;
+          animation: circle 10s ease-in-out -8.25s infinite;
+  z-index: 33;
+}
+.circle.c34 {
+  -webkit-animation: circle 10s ease-in-out -8.5s infinite;
+          animation: circle 10s ease-in-out -8.5s infinite;
+  z-index: 34;
+}
+.circle.c35 {
+  -webkit-animation: circle 10s ease-in-out -8.75s infinite;
+          animation: circle 10s ease-in-out -8.75s infinite;
+  z-index: 35;
+}
+.circle.c36 {
+  -webkit-animation: circle 10s ease-in-out -9s infinite;
+          animation: circle 10s ease-in-out -9s infinite;
+  z-index: 36;
+}
+.circle.c37 {
+  -webkit-animation: circle 10s ease-in-out -9.25s infinite;
+          animation: circle 10s ease-in-out -9.25s infinite;
+  z-index: 37;
+}
+.circle.c38 {
+  -webkit-animation: circle 10s ease-in-out -9.5s infinite;
+          animation: circle 10s ease-in-out -9.5s infinite;
+  z-index: 38;
+}
+.circle.c39 {
+  -webkit-animation: circle 10s ease-in-out -9.75s infinite;
+          animation: circle 10s ease-in-out -9.75s infinite;
+  z-index: 39;
+}
+.circle.c40 {
+  -webkit-animation: circle 10s ease-in-out -10s infinite;
+          animation: circle 10s ease-in-out -10s infinite;
+  z-index: 40;
+}
+.circle.c41 {
+  -webkit-animation: circle 10s ease-in-out -10.25s infinite;
+          animation: circle 10s ease-in-out -10.25s infinite;
+  z-index: 41;
+}
+.circle.c42 {
+  -webkit-animation: circle 10s ease-in-out -10.5s infinite;
+          animation: circle 10s ease-in-out -10.5s infinite;
+  z-index: 42;
+}
+.circle.c43 {
+  -webkit-animation: circle 10s ease-in-out -10.75s infinite;
+          animation: circle 10s ease-in-out -10.75s infinite;
+  z-index: 43;
+}
+.circle.c44 {
+  -webkit-animation: circle 10s ease-in-out -11s infinite;
+          animation: circle 10s ease-in-out -11s infinite;
+  z-index: 44;
+}
+.circle.c45 {
+  -webkit-animation: circle 10s ease-in-out -11.25s infinite;
+          animation: circle 10s ease-in-out -11.25s infinite;
+  z-index: 45;
+}
+.circle.c46 {
+  -webkit-animation: circle 10s ease-in-out -11.5s infinite;
+          animation: circle 10s ease-in-out -11.5s infinite;
+  z-index: 46;
+}
+.circle.c47 {
+  -webkit-animation: circle 10s ease-in-out -11.75s infinite;
+          animation: circle 10s ease-in-out -11.75s infinite;
+  z-index: 47;
+}
+.circle.c48 {
+  -webkit-animation: circle 10s ease-in-out -12s infinite;
+          animation: circle 10s ease-in-out -12s infinite;
+  z-index: 48;
+}
+.circle.c49 {
+  -webkit-animation: circle 10s ease-in-out -12.25s infinite;
+          animation: circle 10s ease-in-out -12.25s infinite;
+  z-index: 49;
+}
+.circle.c50 {
+  -webkit-animation: circle 10s ease-in-out -12.5s infinite;
+          animation: circle 10s ease-in-out -12.5s infinite;
+  z-index: 50;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(4) translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(4) translate(0, 0);
+    opacity: 1;
+  }
+}
