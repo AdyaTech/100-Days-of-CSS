@@ -66,6 +66,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 61 | CSS Gradient Transition |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2061)|
 | 62 | Price Table |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2062)|
 | 63| Hypnotic Ring |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2063)|
+| 64| Button |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2064)|
 
 ## Output
 1. 100 Days
@@ -319,3 +320,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 63. Hypnotic Ring
         
 ![Day 63](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2063/video.gif)
+
+64. Button
+        
+![Day 64](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2064/video.gif)
