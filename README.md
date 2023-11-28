@@ -69,6 +69,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 64| Button |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2064)|
 | 65| Ellipses Animation |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2065)|
 | 66| Sparkle Checkbox |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2066)|
+| 67| 3D Parasol |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2067)|
 
 ## Output
 1. 100 Days
@@ -334,3 +335,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 66. Sparkle Checkbox
         
 ![Day 66](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2066/video.gif)
+
+67. 3D Parasol
+        
+![Day 67](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2067/video.gif)
