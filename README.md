@@ -72,6 +72,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 67| 3D Parasol |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2067)|
 | 68| Recording |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2068)|
 | 69| Eye |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2069)|
+| 70| Calendar Days |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2070)|
 
 ## Output
 1. 100 Days
@@ -349,3 +350,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 69. Eye
         
 ![Day 69](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2069/video.gif)
+
+70. Calendar Days
+        
+![Day 70](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2070/video.gif)
