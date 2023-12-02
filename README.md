@@ -73,6 +73,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 68| Recording |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2068)|
 | 69| Eye |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2069)|
 | 70| Calendar Days |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2070)|
+| 71| Morse Code Keyboard |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2071)|
 
 ## Output
 1. 100 Days
@@ -354,3 +355,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 70. Calendar Days
         
 ![Day 70](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2070/video.gif)
+
+71. Morse Code Keyboard
+        
+![Day 71](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2071/video.gif)
