@@ -74,6 +74,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 69| Eye |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2069)|
 | 70| Calendar Days |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2070)|
 | 71| Morse Code Keyboard |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2071)|
+| 72| The Rings |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2072)|
 
 ## Output
 1. 100 Days
@@ -359,3 +360,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 71. Morse Code Keyboard
         
 ![Day 71](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2071/video.gif)
+
+72. The Rings
+        
+![Day 72](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2072/video.gif)
