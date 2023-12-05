@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.frame {
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1abc9c;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  height: 400px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  display: none;
+}
+
+.button {
+  background: none;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  line-height: 27px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  width: 30px;
+}
+.button:hover {
+  background: #16a085;
+  transition: all 0.3s ease-in-out;
+}
+.button:before {
+  background: white;
+  border-radius: 50%;
+  bottom: -1px;
+  content: "";
+  left: -1px;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
+
+#number1:checked ~ .button-1,
+#number2:checked ~ .button-2,
+#number3:checked ~ .button-3,
+#number4:checked ~ .button-4 {
+  background-color: none;
+  color: #1abc9c;
+  transition: all 0.5s ease-in-out;
+}
+
+#number1:checked ~ .button-1::before {
+  transform: scale(1);
+}
+
+#number2:checked ~ .button-2::before {
+  transform: scale(1);
+}
+
+#number3:checked ~ .button-3::before {
+  transform: scale(1);
+}
+
+#number4:checked ~ .button-4::before {
+  transform: scale(1);
+}
