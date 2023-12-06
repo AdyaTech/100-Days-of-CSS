@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.frame {
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d33526;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  height: 400px;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+}
+
+.center {
+  left: 50%;
+  perspective: 1500px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ball {
+  -webkit-animation: ball 7s ease-in-out infinite;
+          animation: ball 7s ease-in-out infinite;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  width: 200px;
+}
+.ball .disc {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 200px;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+.ball .disc-1 {
+  transform: rotateX(0deg);
+}
+.ball .disc-2 {
+  transform: rotateX(30deg);
+}
+.ball .disc-3 {
+  transform: rotateX(60deg);
+}
+.ball .disc-4 {
+  transform: rotateX(90deg);
+}
+.ball .disc-5 {
+  transform: rotateX(120deg);
+}
+.ball .disc-6 {
+  transform: rotateX(150deg);
+}
+
+@-webkit-keyframes ball {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+  }
+  25% {
+    transform: rotateY(45deg) rotateX(180deg) rotateZ(20deg);
+  }
+  50% {
+    transform: rotateY(225deg) rotateX(0deg) rotateZ(90deg);
+  }
+  75% {
+    transform: rotateY(0deg) rotateX(45deg) rotateZ(120deg);
+  }
+  100% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes ball {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+  }
+  25% {
+    transform: rotateY(45deg) rotateX(180deg) rotateZ(20deg);
+  }
+  50% {
+    transform: rotateY(225deg) rotateX(0deg) rotateZ(90deg);
+  }
+  75% {
+    transform: rotateY(0deg) rotateX(45deg) rotateZ(120deg);
+  }
+  100% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+  }
+}
