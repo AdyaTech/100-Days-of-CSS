@@ -77,6 +77,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 72| The Rings |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2072)|
 | 73| Word Carousel |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2073)|
 | 74| Pagination |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2074)|
+| 75| Spinning Discs |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2075)|
 
 ## Output
 1. 100 Days
@@ -374,3 +375,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 74. Pagination
         
 ![Day 74](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2074/video.gif)
+
+75. Spinning Discs
+        
+![Day 75](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2075/video.gif)
