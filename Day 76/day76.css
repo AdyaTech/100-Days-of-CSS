@@ -1,0 +1,23 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#0b4680e3;
+    overflow: hidden;
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.104);
+  }
+  input{
+    width:220px;
+    height:50px;
+    font-family:"Open Sans", Helvetica, sans-serif;
+    appearance:none;
+    border-radius:10px;
+    text-align:center;
+    outline:none;
+    line-height:20px;
+    backface-visibility:hidden;
+    font-size:16px;
+    box-shadow:0px 0px 10px 0px rgba(253,253,253,0.823);
+    border-color:rgba(128,255,0,0.177)
+  }
