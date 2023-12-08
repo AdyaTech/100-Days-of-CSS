@@ -79,6 +79,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 74| Pagination |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2074)|
 | 75| Spinning Discs |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2075)|
 | 76| Reveal Key |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2076)|
+| 77| Motion Blur |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2077)|
 
 ## Output
 1. 100 Days
@@ -384,3 +385,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 76. Reveal Key
         
 ![Day 76](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2076/video.gif)
+
+77. Motion Blur
+        
+![Day 77](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2077/video.gif)
