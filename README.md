@@ -80,6 +80,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 75| Spinning Discs |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2075)|
 | 76| Reveal Key |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2076)|
 | 77| Motion Blur |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2077)|
+| 78| Hover Shadow |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2078)|
 
 ## Output
 1. 100 Days
@@ -389,3 +390,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 77. Motion Blur
         
 ![Day 77](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2077/video.gif)
+
+78. Hover Shadow
+        
+![Day 78](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2078/video.gif)
