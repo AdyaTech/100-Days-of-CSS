@@ -81,6 +81,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 76| Reveal Key |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2076)|
 | 77| Motion Blur |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2077)|
 | 78| Hover Shadow |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2078)|
+| 79| Lines Animation |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2079)|
 
 ## Output
 1. 100 Days
@@ -394,3 +395,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 78. Hover Shadow
         
 ![Day 78](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2078/video.gif)
+
+79. Lines Animation
+        
+![Day 79](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2079/video.gif)
