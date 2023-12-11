@@ -401,6 +401,6 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
         
 ![Day 79](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2079/video.gif)
 
-80. Flexbox Accordeon
+80. Flexbox Accordion
         
 ![Day 80](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2080/video.gif)
