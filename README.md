@@ -82,6 +82,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 77| Motion Blur |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2077)|
 | 78| Hover Shadow |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2078)|
 | 79| Lines Animation |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2079)|
+| 80| Flexbox Accordion |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2080)|
 
 ## Output
 1. 100 Days
@@ -399,3 +400,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 79. Lines Animation
         
 ![Day 79](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2079/video.gif)
+
+80. Flexbox Accordeon
+        
+![Day 80](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2080/video.gif)
