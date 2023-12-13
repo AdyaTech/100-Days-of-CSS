@@ -84,6 +84,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 79| Lines Animation |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2079)|
 | 80| Flexbox Accordion |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2080)|
 | 81| Jumping Ball |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2081)|
+| 82| Action Button |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2082)|
 
 ## Output
 1. 100 Days
@@ -409,3 +410,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 81. Jumping Ball
         
 ![Day 81](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2081/video.gif)
+
+82. Action Button
+        
+![Day 82](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2082/video.gif)
