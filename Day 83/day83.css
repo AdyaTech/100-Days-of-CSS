@@ -1,0 +1,2381 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: block;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app {
+  width: 100%;
+  height: 400px;
+  max-width: 400px;
+  background-color: #1e3242;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+#app .container {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+}
+#app .container .ring {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+#app .container .stripe {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  top: 90px;
+  left: 99px;
+  background-color: #c3dcec;
+}
+#app .container .r1 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) 0s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) 0s infinite;
+}
+#app .container .r1 .s1 {
+  transform: rotate(-4.3702064872deg) translate3d(0, 64.5432953826px, 0) scaleY(0.6454329538);
+}
+#app .container .r1 .s2 {
+  transform: rotate(10.2827812012deg) translate3d(0, 75.3221719784px, 0) scaleY(0.7532217198);
+}
+#app .container .r1 .s3 {
+  transform: rotate(27.642785773deg) translate3d(0, 65.2724948094px, 0) scaleY(0.6527249481);
+}
+#app .container .r1 .s4 {
+  transform: rotate(36.419365552deg) translate3d(0, 90.1832414576px, 0) scaleY(0.9018324146);
+}
+#app .container .r1 .s5 {
+  transform: rotate(59.8860305886deg) translate3d(0, 71.4862847108px, 0) scaleY(0.7148628471);
+}
+#app .container .r1 .s6 {
+  transform: rotate(74.9653486836deg) translate3d(0, 65.3483620315px, 0) scaleY(0.6534836203);
+}
+#app .container .r1 .s7 {
+  transform: rotate(86.598479231deg) translate3d(0, 83.6577369358px, 0) scaleY(0.8365773694);
+}
+#app .container .r1 .s8 {
+  transform: rotate(101.5754548859deg) translate3d(0, 97.9932969331px, 0) scaleY(0.9799329693);
+}
+#app .container .r1 .s9 {
+  transform: rotate(113.1795014881deg) translate3d(0, 99.2725816009px, 0) scaleY(0.992725816);
+}
+#app .container .r1 .s10 {
+  transform: rotate(134.3172194835deg) translate3d(0, 69.0848994435px, 0) scaleY(0.6908489944);
+}
+#app .container .r1 .s11 {
+  transform: rotate(148.7291060486deg) translate3d(0, 61.9873482551px, 0) scaleY(0.6198734826);
+}
+#app .container .r1 .s12 {
+  transform: rotate(164.4110559062deg) translate3d(0, 70.5819504518px, 0) scaleY(0.7058195045);
+}
+#app .container .r1 .s13 {
+  transform: rotate(172.6953731926deg) translate3d(0, 92.986655401px, 0) scaleY(0.929866554);
+}
+#app .container .r1 .s14 {
+  transform: rotate(192.5406011761deg) translate3d(0, 60.8562304186px, 0) scaleY(0.6085623042);
+}
+#app .container .r1 .s15 {
+  transform: rotate(205.0996597484deg) translate3d(0, 87.1507721289px, 0) scaleY(0.8715077213);
+}
+#app .container .r1 .s16 {
+  transform: rotate(222.7277453269deg) translate3d(0, 84.106515182px, 0) scaleY(0.8410651518);
+}
+#app .container .r1 .s17 {
+  transform: rotate(234.6579820113deg) translate3d(0, 89.1567536374px, 0) scaleY(0.8915675364);
+}
+#app .container .r1 .s18 {
+  transform: rotate(252.1646669218deg) translate3d(0, 60.9782284703px, 0) scaleY(0.6097822847);
+}
+#app .container .r1 .s19 {
+  transform: rotate(264.887983452deg) translate3d(0, 70.232801851px, 0) scaleY(0.7023280185);
+}
+#app .container .r1 .s20 {
+  transform: rotate(278.505947056deg) translate3d(0, 92.9415292908px, 0) scaleY(0.9294152929);
+}
+#app .container .r1 .s21 {
+  transform: rotate(292.6953627403deg) translate3d(0, 96.8756146422px, 0) scaleY(0.9687561464);
+}
+#app .container .r1 .s22 {
+  transform: rotate(306.9788381129deg) translate3d(0, 86.1806852971px, 0) scaleY(0.861806853);
+}
+#app .container .r1 .s23 {
+  transform: rotate(320.3095510505deg) translate3d(0, 62.1500652043px, 0) scaleY(0.621500652);
+}
+#app .container .r1 .s24 {
+  transform: rotate(338.7393864925deg) translate3d(0, 87.7459480119px, 0) scaleY(0.8774594801);
+}
+#app .container .r2 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.1333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.1333333333s infinite;
+}
+#app .container .r2 .s1 {
+  transform: rotate(-6.3691624489deg) translate3d(0, 86.0550820771px, 0) scaleY(0.8605508208);
+}
+#app .container .r2 .s2 {
+  transform: rotate(14.1582815984deg) translate3d(0, 65.7051659055px, 0) scaleY(0.6570516591);
+}
+#app .container .r2 .s3 {
+  transform: rotate(21.2405653529deg) translate3d(0, 72.9705079163px, 0) scaleY(0.7297050792);
+}
+#app .container .r2 .s4 {
+  transform: rotate(41.6269853739deg) translate3d(0, 83.0265753952px, 0) scaleY(0.830265754);
+}
+#app .container .r2 .s5 {
+  transform: rotate(55.1308382195deg) translate3d(0, 97.6726054703px, 0) scaleY(0.9767260547);
+}
+#app .container .r2 .s6 {
+  transform: rotate(72.3445693984deg) translate3d(0, 69.1717377747px, 0) scaleY(0.6917173777);
+}
+#app .container .r2 .s7 {
+  transform: rotate(87.3150638213deg) translate3d(0, 72.5173511684px, 0) scaleY(0.7251735117);
+}
+#app .container .r2 .s8 {
+  transform: rotate(95.7649418217deg) translate3d(0, 83.2047173503px, 0) scaleY(0.8320471735);
+}
+#app .container .r2 .s9 {
+  transform: rotate(113.3284917623deg) translate3d(0, 68.1953596816px, 0) scaleY(0.6819535968);
+}
+#app .container .r2 .s10 {
+  transform: rotate(125.6543171048deg) translate3d(0, 92.5747872847px, 0) scaleY(0.9257478728);
+}
+#app .container .r2 .s11 {
+  transform: rotate(148.7239256476deg) translate3d(0, 91.0387599612px, 0) scaleY(0.9103875996);
+}
+#app .container .r2 .s12 {
+  transform: rotate(163.9866229896deg) translate3d(0, 60.4437477811px, 0) scaleY(0.6044374778);
+}
+#app .container .r2 .s13 {
+  transform: rotate(176.7152754789deg) translate3d(0, 70.0349601864px, 0) scaleY(0.7003496019);
+}
+#app .container .r2 .s14 {
+  transform: rotate(190.9565484307deg) translate3d(0, 91.2225788151px, 0) scaleY(0.9122257882);
+}
+#app .container .r2 .s15 {
+  transform: rotate(209.5927371791deg) translate3d(0, 65.2153832026px, 0) scaleY(0.652153832);
+}
+#app .container .r2 .s16 {
+  transform: rotate(223.5941644667deg) translate3d(0, 73.1832676608px, 0) scaleY(0.7318326766);
+}
+#app .container .r2 .s17 {
+  transform: rotate(238.7637442843deg) translate3d(0, 77.8785829167px, 0) scaleY(0.7787858292);
+}
+#app .container .r2 .s18 {
+  transform: rotate(246.3637919722deg) translate3d(0, 75.7370631087px, 0) scaleY(0.7573706311);
+}
+#app .container .r2 .s19 {
+  transform: rotate(267.6468866779deg) translate3d(0, 67.4026594653px, 0) scaleY(0.6740265947);
+}
+#app .container .r2 .s20 {
+  transform: rotate(284.5202687758deg) translate3d(0, 75.8764380921px, 0) scaleY(0.7587643809);
+}
+#app .container .r2 .s21 {
+  transform: rotate(296.6301061764deg) translate3d(0, 79.4289904253px, 0) scaleY(0.7942899043);
+}
+#app .container .r2 .s22 {
+  transform: rotate(306.1164596682deg) translate3d(0, 72.5046003101px, 0) scaleY(0.7250460031);
+}
+#app .container .r2 .s23 {
+  transform: rotate(320.3216495931deg) translate3d(0, 66.2890615248px, 0) scaleY(0.6628906152);
+}
+#app .container .r2 .s24 {
+  transform: rotate(338.3236606962deg) translate3d(0, 85.9402585549px, 0) scaleY(0.8594025855);
+}
+#app .container .r3 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.2666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.2666666667s infinite;
+}
+#app .container .r3 .s1 {
+  transform: rotate(-5.6784164939deg) translate3d(0, 65.2806849656px, 0) scaleY(0.6528068497);
+}
+#app .container .r3 .s2 {
+  transform: rotate(14.1005674901deg) translate3d(0, 61.0576252222px, 0) scaleY(0.6105762522);
+}
+#app .container .r3 .s3 {
+  transform: rotate(24.5597351676deg) translate3d(0, 89.0751508723px, 0) scaleY(0.8907515087);
+}
+#app .container .r3 .s4 {
+  transform: rotate(36.7028343344deg) translate3d(0, 92.2328129244px, 0) scaleY(0.9223281292);
+}
+#app .container .r3 .s5 {
+  transform: rotate(54.2479585949deg) translate3d(0, 71.8538337509px, 0) scaleY(0.7185383375);
+}
+#app .container .r3 .s6 {
+  transform: rotate(67.8181126743deg) translate3d(0, 63.8818666485px, 0) scaleY(0.6388186665);
+}
+#app .container .r3 .s7 {
+  transform: rotate(88.2922783526deg) translate3d(0, 93.1755096353px, 0) scaleY(0.9317550964);
+}
+#app .container .r3 .s8 {
+  transform: rotate(102.7406511073deg) translate3d(0, 71.9092000793px, 0) scaleY(0.7190920008);
+}
+#app .container .r3 .s9 {
+  transform: rotate(111.5991928041deg) translate3d(0, 70.1663729803px, 0) scaleY(0.7016637298);
+}
+#app .container .r3 .s10 {
+  transform: rotate(133.3731805912deg) translate3d(0, 75.9772987806px, 0) scaleY(0.7597729878);
+}
+#app .container .r3 .s11 {
+  transform: rotate(144.5831594391deg) translate3d(0, 77.3427120204px, 0) scaleY(0.7734271202);
+}
+#app .container .r3 .s12 {
+  transform: rotate(160.9304792968deg) translate3d(0, 72.4672302775px, 0) scaleY(0.7246723028);
+}
+#app .container .r3 .s13 {
+  transform: rotate(171.6214377342deg) translate3d(0, 97.9149795243px, 0) scaleY(0.9791497952);
+}
+#app .container .r3 .s14 {
+  transform: rotate(192.629401243deg) translate3d(0, 96.3386652306px, 0) scaleY(0.9633866523);
+}
+#app .container .r3 .s15 {
+  transform: rotate(209.4344107343deg) translate3d(0, 66.7887969027px, 0) scaleY(0.667887969);
+}
+#app .container .r3 .s16 {
+  transform: rotate(219.5856352615deg) translate3d(0, 75.664072971px, 0) scaleY(0.7566407297);
+}
+#app .container .r3 .s17 {
+  transform: rotate(238.3382761754deg) translate3d(0, 74.5916211314px, 0) scaleY(0.7459162113);
+}
+#app .container .r3 .s18 {
+  transform: rotate(249.3457207339deg) translate3d(0, 69.3981002472px, 0) scaleY(0.6939810025);
+}
+#app .container .r3 .s19 {
+  transform: rotate(269.7828466098deg) translate3d(0, 73.0317669038px, 0) scaleY(0.730317669);
+}
+#app .container .r3 .s20 {
+  transform: rotate(283.8861954088deg) translate3d(0, 64.1695461596px, 0) scaleY(0.6416954616);
+}
+#app .container .r3 .s21 {
+  transform: rotate(298.1666150916deg) translate3d(0, 68.284846003px, 0) scaleY(0.68284846);
+}
+#app .container .r3 .s22 {
+  transform: rotate(305.7651756825deg) translate3d(0, 92.2034715909px, 0) scaleY(0.9220347159);
+}
+#app .container .r3 .s23 {
+  transform: rotate(329.3911868858deg) translate3d(0, 70.4867398256px, 0) scaleY(0.7048673983);
+}
+#app .container .r3 .s24 {
+  transform: rotate(343.2233953461deg) translate3d(0, 82.1884437373px, 0) scaleY(0.8218844374);
+}
+#app .container .r4 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.4s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.4s infinite;
+}
+#app .container .r4 .s1 {
+  transform: rotate(-1.2388135475deg) translate3d(0, 64.7012184397px, 0) scaleY(0.6470121844);
+}
+#app .container .r4 .s2 {
+  transform: rotate(12.6520881367deg) translate3d(0, 64.8916362273px, 0) scaleY(0.6489163623);
+}
+#app .container .r4 .s3 {
+  transform: rotate(25.379477134deg) translate3d(0, 65.3549142572px, 0) scaleY(0.6535491426);
+}
+#app .container .r4 .s4 {
+  transform: rotate(43.2657865435deg) translate3d(0, 98.7873364886px, 0) scaleY(0.9878733649);
+}
+#app .container .r4 .s5 {
+  transform: rotate(54.2512226614deg) translate3d(0, 78.5128479349px, 0) scaleY(0.7851284793);
+}
+#app .container .r4 .s6 {
+  transform: rotate(65.3173556772deg) translate3d(0, 70.3867968171px, 0) scaleY(0.7038679682);
+}
+#app .container .r4 .s7 {
+  transform: rotate(88.7523735599deg) translate3d(0, 85.4056250091px, 0) scaleY(0.8540562501);
+}
+#app .container .r4 .s8 {
+  transform: rotate(97.2442352002deg) translate3d(0, 94.3581439333px, 0) scaleY(0.9435814393);
+}
+#app .container .r4 .s9 {
+  transform: rotate(110.6932625757deg) translate3d(0, 92.6310211477px, 0) scaleY(0.9263102115);
+}
+#app .container .r4 .s10 {
+  transform: rotate(132.8348268957deg) translate3d(0, 76.0483348801px, 0) scaleY(0.7604833488);
+}
+#app .container .r4 .s11 {
+  transform: rotate(145.4251405432deg) translate3d(0, 66.4038018081px, 0) scaleY(0.6640380181);
+}
+#app .container .r4 .s12 {
+  transform: rotate(159.8466264277deg) translate3d(0, 84.9515401358px, 0) scaleY(0.8495154014);
+}
+#app .container .r4 .s13 {
+  transform: rotate(173.44187378deg) translate3d(0, 75.404033193px, 0) scaleY(0.7540403319);
+}
+#app .container .r4 .s14 {
+  transform: rotate(185.220751047deg) translate3d(0, 88.8971973104px, 0) scaleY(0.8889719731);
+}
+#app .container .r4 .s15 {
+  transform: rotate(207.3027903934deg) translate3d(0, 66.6258286494px, 0) scaleY(0.6662582865);
+}
+#app .container .r4 .s16 {
+  transform: rotate(220.400921904deg) translate3d(0, 65.9922814916px, 0) scaleY(0.6599228149);
+}
+#app .container .r4 .s17 {
+  transform: rotate(232.9924418159deg) translate3d(0, 62.9598752488px, 0) scaleY(0.6295987525);
+}
+#app .container .r4 .s18 {
+  transform: rotate(247.3774255844deg) translate3d(0, 71.8951311349px, 0) scaleY(0.7189513113);
+}
+#app .container .r4 .s19 {
+  transform: rotate(266.2939501759deg) translate3d(0, 68.38307104px, 0) scaleY(0.6838307104);
+}
+#app .container .r4 .s20 {
+  transform: rotate(276.7671412457deg) translate3d(0, 65.2087884247px, 0) scaleY(0.6520878842);
+}
+#app .container .r4 .s21 {
+  transform: rotate(294.9079025645deg) translate3d(0, 95.4879202391px, 0) scaleY(0.9548792024);
+}
+#app .container .r4 .s22 {
+  transform: rotate(306.0072048316deg) translate3d(0, 76.6922437322px, 0) scaleY(0.7669224373);
+}
+#app .container .r4 .s23 {
+  transform: rotate(329.9834198983deg) translate3d(0, 65.4763285197px, 0) scaleY(0.6547632852);
+}
+#app .container .r4 .s24 {
+  transform: rotate(341.0311318047deg) translate3d(0, 96.6069329279px, 0) scaleY(0.9660693293);
+}
+#app .container .r5 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.5333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.5333333333s infinite;
+}
+#app .container .r5 .s1 {
+  transform: rotate(-5.3093548171deg) translate3d(0, 87.2276285079px, 0) scaleY(0.8722762851);
+}
+#app .container .r5 .s2 {
+  transform: rotate(12.6881309075deg) translate3d(0, 86.3440326809px, 0) scaleY(0.8634403268);
+}
+#app .container .r5 .s3 {
+  transform: rotate(22.4886464713deg) translate3d(0, 83.7875148593px, 0) scaleY(0.8378751486);
+}
+#app .container .r5 .s4 {
+  transform: rotate(43.7859759587deg) translate3d(0, 96.5883102804px, 0) scaleY(0.9658831028);
+}
+#app .container .r5 .s5 {
+  transform: rotate(56.8131865184deg) translate3d(0, 95.9279552535px, 0) scaleY(0.9592795525);
+}
+#app .container .r5 .s6 {
+  transform: rotate(71.8609566669deg) translate3d(0, 79.7489915747px, 0) scaleY(0.7974899157);
+}
+#app .container .r5 .s7 {
+  transform: rotate(89.2662244692deg) translate3d(0, 95.3225578421px, 0) scaleY(0.9532255784);
+}
+#app .container .r5 .s8 {
+  transform: rotate(98.6570243463deg) translate3d(0, 76.2293596635px, 0) scaleY(0.7622935966);
+}
+#app .container .r5 .s9 {
+  transform: rotate(119.5382558423deg) translate3d(0, 88.1723896511px, 0) scaleY(0.8817238965);
+}
+#app .container .r5 .s10 {
+  transform: rotate(125.7706015409deg) translate3d(0, 61.5471696005px, 0) scaleY(0.615471696);
+}
+#app .container .r5 .s11 {
+  transform: rotate(140.1392631866deg) translate3d(0, 78.4312954978px, 0) scaleY(0.784312955);
+}
+#app .container .r5 .s12 {
+  transform: rotate(158.8445383309deg) translate3d(0, 71.1391671122px, 0) scaleY(0.7113916711);
+}
+#app .container .r5 .s13 {
+  transform: rotate(174.0335677635deg) translate3d(0, 64.8780204159px, 0) scaleY(0.6487802042);
+}
+#app .container .r5 .s14 {
+  transform: rotate(193.4688443826deg) translate3d(0, 79.6625636143px, 0) scaleY(0.7966256361);
+}
+#app .container .r5 .s15 {
+  transform: rotate(202.3748723562deg) translate3d(0, 87.2158451939px, 0) scaleY(0.8721584519);
+}
+#app .container .r5 .s16 {
+  transform: rotate(222.4750034278deg) translate3d(0, 80.6630378579px, 0) scaleY(0.8066303786);
+}
+#app .container .r5 .s17 {
+  transform: rotate(235.3177713017deg) translate3d(0, 84.4838787701px, 0) scaleY(0.8448387877);
+}
+#app .container .r5 .s18 {
+  transform: rotate(249.5724140456deg) translate3d(0, 69.7600736005px, 0) scaleY(0.697600736);
+}
+#app .container .r5 .s19 {
+  transform: rotate(267.4175704768deg) translate3d(0, 85.2160587921px, 0) scaleY(0.8521605879);
+}
+#app .container .r5 .s20 {
+  transform: rotate(278.224990144deg) translate3d(0, 86.964899551px, 0) scaleY(0.8696489955);
+}
+#app .container .r5 .s21 {
+  transform: rotate(292.0020340946deg) translate3d(0, 78.2905934957px, 0) scaleY(0.782905935);
+}
+#app .container .r5 .s22 {
+  transform: rotate(310.502830078deg) translate3d(0, 78.6073202738px, 0) scaleY(0.7860732027);
+}
+#app .container .r5 .s23 {
+  transform: rotate(323.0727202701deg) translate3d(0, 84.6157708697px, 0) scaleY(0.8461577087);
+}
+#app .container .r5 .s24 {
+  transform: rotate(342.9735716397deg) translate3d(0, 67.463945771px, 0) scaleY(0.6746394577);
+}
+#app .container .r6 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.6666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.6666666667s infinite;
+}
+#app .container .r6 .s1 {
+  transform: rotate(-4.8897225226deg) translate3d(0, 76.7112078799px, 0) scaleY(0.7671120788);
+}
+#app .container .r6 .s2 {
+  transform: rotate(6.2668978233deg) translate3d(0, 67.2932062114px, 0) scaleY(0.6729320621);
+}
+#app .container .r6 .s3 {
+  transform: rotate(28.713468547deg) translate3d(0, 61.2544842944px, 0) scaleY(0.6125448429);
+}
+#app .container .r6 .s4 {
+  transform: rotate(42.1456008568deg) translate3d(0, 74.4155301312px, 0) scaleY(0.7441553013);
+}
+#app .container .r6 .s5 {
+  transform: rotate(51.3763764689deg) translate3d(0, 87.8201045568px, 0) scaleY(0.8782010456);
+}
+#app .container .r6 .s6 {
+  transform: rotate(69.6621623117deg) translate3d(0, 78.5970184363px, 0) scaleY(0.7859701844);
+}
+#app .container .r6 .s7 {
+  transform: rotate(82.4646058741deg) translate3d(0, 67.8832837718px, 0) scaleY(0.6788328377);
+}
+#app .container .r6 .s8 {
+  transform: rotate(102.5734541484deg) translate3d(0, 95.3548473983px, 0) scaleY(0.953548474);
+}
+#app .container .r6 .s9 {
+  transform: rotate(110.5198945562deg) translate3d(0, 99.6590056853px, 0) scaleY(0.9965900569);
+}
+#app .container .r6 .s10 {
+  transform: rotate(129.8834539064deg) translate3d(0, 91.5815653247px, 0) scaleY(0.9158156532);
+}
+#app .container .r6 .s11 {
+  transform: rotate(143.3270059998deg) translate3d(0, 76.893427515px, 0) scaleY(0.7689342751);
+}
+#app .container .r6 .s12 {
+  transform: rotate(159.0750067993deg) translate3d(0, 67.4789470994px, 0) scaleY(0.674789471);
+}
+#app .container .r6 .s13 {
+  transform: rotate(172.5524585792deg) translate3d(0, 73.2592335166px, 0) scaleY(0.7325923352);
+}
+#app .container .r6 .s14 {
+  transform: rotate(192.0301590295deg) translate3d(0, 82.7519217052px, 0) scaleY(0.8275192171);
+}
+#app .container .r6 .s15 {
+  transform: rotate(205.8940817433deg) translate3d(0, 69.1808067418px, 0) scaleY(0.6918080674);
+}
+#app .container .r6 .s16 {
+  transform: rotate(216.6268355705deg) translate3d(0, 93.7502341654px, 0) scaleY(0.9375023417);
+}
+#app .container .r6 .s17 {
+  transform: rotate(232.8549066632deg) translate3d(0, 97.8888821304px, 0) scaleY(0.9788888213);
+}
+#app .container .r6 .s18 {
+  transform: rotate(246.5769215865deg) translate3d(0, 93.4602886099px, 0) scaleY(0.9346028861);
+}
+#app .container .r6 .s19 {
+  transform: rotate(264.9907944646deg) translate3d(0, 84.4270386649px, 0) scaleY(0.8442703866);
+}
+#app .container .r6 .s20 {
+  transform: rotate(281.3861217159deg) translate3d(0, 90.3060980909px, 0) scaleY(0.9030609809);
+}
+#app .container .r6 .s21 {
+  transform: rotate(299.842585974deg) translate3d(0, 84.3472834226px, 0) scaleY(0.8434728342);
+}
+#app .container .r6 .s22 {
+  transform: rotate(310.8677694917deg) translate3d(0, 99.0454827129px, 0) scaleY(0.9904548271);
+}
+#app .container .r6 .s23 {
+  transform: rotate(324.129818926deg) translate3d(0, 67.3400125289px, 0) scaleY(0.6734001253);
+}
+#app .container .r6 .s24 {
+  transform: rotate(338.0217295746deg) translate3d(0, 73.9660728479px, 0) scaleY(0.7396607285);
+}
+#app .container .r7 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.8s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.8s infinite;
+}
+#app .container .r7 .s1 {
+  transform: rotate(-4.0996711915deg) translate3d(0, 66.8587429321px, 0) scaleY(0.6685874293);
+}
+#app .container .r7 .s2 {
+  transform: rotate(9.8510530558deg) translate3d(0, 77.7911630117px, 0) scaleY(0.7779116301);
+}
+#app .container .r7 .s3 {
+  transform: rotate(20.8272897341deg) translate3d(0, 64.8060589909px, 0) scaleY(0.6480605899);
+}
+#app .container .r7 .s4 {
+  transform: rotate(43.4891848161deg) translate3d(0, 96.9885598242px, 0) scaleY(0.9698855982);
+}
+#app .container .r7 .s5 {
+  transform: rotate(50.7012935079deg) translate3d(0, 64.208172521px, 0) scaleY(0.6420817252);
+}
+#app .container .r7 .s6 {
+  transform: rotate(65.105361533deg) translate3d(0, 74.481016097px, 0) scaleY(0.744810161);
+}
+#app .container .r7 .s7 {
+  transform: rotate(86.0775954722deg) translate3d(0, 68.4287992365px, 0) scaleY(0.6842879924);
+}
+#app .container .r7 .s8 {
+  transform: rotate(97.0174090594deg) translate3d(0, 65.4847718115px, 0) scaleY(0.6548477181);
+}
+#app .container .r7 .s9 {
+  transform: rotate(113.111943786deg) translate3d(0, 76.9357221258px, 0) scaleY(0.7693572213);
+}
+#app .container .r7 .s10 {
+  transform: rotate(133.2956119125deg) translate3d(0, 88.3053911935px, 0) scaleY(0.8830539119);
+}
+#app .container .r7 .s11 {
+  transform: rotate(147.4617111654deg) translate3d(0, 86.8534539321px, 0) scaleY(0.8685345393);
+}
+#app .container .r7 .s12 {
+  transform: rotate(157.9815531418deg) translate3d(0, 75.3876388817px, 0) scaleY(0.7538763888);
+}
+#app .container .r7 .s13 {
+  transform: rotate(177.5123713728deg) translate3d(0, 81.9625286474px, 0) scaleY(0.8196252865);
+}
+#app .container .r7 .s14 {
+  transform: rotate(186.2216236539deg) translate3d(0, 68.2461285934px, 0) scaleY(0.6824612859);
+}
+#app .container .r7 .s15 {
+  transform: rotate(204.6362327884deg) translate3d(0, 79.4114861746px, 0) scaleY(0.7941148617);
+}
+#app .container .r7 .s16 {
+  transform: rotate(217.4804899808deg) translate3d(0, 67.328147102px, 0) scaleY(0.673281471);
+}
+#app .container .r7 .s17 {
+  transform: rotate(232.0759048452deg) translate3d(0, 61.4477671687px, 0) scaleY(0.6144776717);
+}
+#app .container .r7 .s18 {
+  transform: rotate(252.8301615736deg) translate3d(0, 61.6059285021px, 0) scaleY(0.616059285);
+}
+#app .container .r7 .s19 {
+  transform: rotate(264.5870794182deg) translate3d(0, 67.278713109px, 0) scaleY(0.6727871311);
+}
+#app .container .r7 .s20 {
+  transform: rotate(279.9745423557deg) translate3d(0, 91.2478744593px, 0) scaleY(0.9124787446);
+}
+#app .container .r7 .s21 {
+  transform: rotate(292.1943843982deg) translate3d(0, 89.5669527698px, 0) scaleY(0.8956695277);
+}
+#app .container .r7 .s22 {
+  transform: rotate(314.5926617792deg) translate3d(0, 65.177682577px, 0) scaleY(0.6517768258);
+}
+#app .container .r7 .s23 {
+  transform: rotate(326.4487291392deg) translate3d(0, 75.4325461823px, 0) scaleY(0.7543254618);
+}
+#app .container .r7 .s24 {
+  transform: rotate(343.7852828226deg) translate3d(0, 99.5425859494px, 0) scaleY(0.9954258595);
+}
+#app .container .r8 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.9333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -0.9333333333s infinite;
+}
+#app .container .r8 .s1 {
+  transform: rotate(-0.9971048569deg) translate3d(0, 95.5820166307px, 0) scaleY(0.9558201663);
+}
+#app .container .r8 .s2 {
+  transform: rotate(13.5652272234deg) translate3d(0, 74.1830861512px, 0) scaleY(0.7418308615);
+}
+#app .container .r8 .s3 {
+  transform: rotate(25.6417416756deg) translate3d(0, 81.0560521955px, 0) scaleY(0.810560522);
+}
+#app .container .r8 .s4 {
+  transform: rotate(41.6327168523deg) translate3d(0, 87.1462835928px, 0) scaleY(0.8714628359);
+}
+#app .container .r8 .s5 {
+  transform: rotate(52.0941132903deg) translate3d(0, 62.7970045848px, 0) scaleY(0.6279700458);
+}
+#app .container .r8 .s6 {
+  transform: rotate(66.5641445388deg) translate3d(0, 95.0562353802px, 0) scaleY(0.9505623538);
+}
+#app .container .r8 .s7 {
+  transform: rotate(83.686800642deg) translate3d(0, 86.6270406264px, 0) scaleY(0.8662704063);
+}
+#app .container .r8 .s8 {
+  transform: rotate(99.5472953988deg) translate3d(0, 69.4510389321px, 0) scaleY(0.6945103893);
+}
+#app .container .r8 .s9 {
+  transform: rotate(114.215089233deg) translate3d(0, 69.9820947709px, 0) scaleY(0.6998209477);
+}
+#app .container .r8 .s10 {
+  transform: rotate(132.0762932614deg) translate3d(0, 61.8349801298px, 0) scaleY(0.6183498013);
+}
+#app .container .r8 .s11 {
+  transform: rotate(140.5396128886deg) translate3d(0, 89.935897357px, 0) scaleY(0.8993589736);
+}
+#app .container .r8 .s12 {
+  transform: rotate(159.4161432279deg) translate3d(0, 70.1095330851px, 0) scaleY(0.7010953309);
+}
+#app .container .r8 .s13 {
+  transform: rotate(175.8634988999deg) translate3d(0, 68.8594154063px, 0) scaleY(0.6885941541);
+}
+#app .container .r8 .s14 {
+  transform: rotate(187.0171020379deg) translate3d(0, 74.104112975px, 0) scaleY(0.7410411297);
+}
+#app .container .r8 .s15 {
+  transform: rotate(208.6880086133deg) translate3d(0, 91.119570013px, 0) scaleY(0.9111957001);
+}
+#app .container .r8 .s16 {
+  transform: rotate(218.099223006deg) translate3d(0, 81.4802191006px, 0) scaleY(0.814802191);
+}
+#app .container .r8 .s17 {
+  transform: rotate(238.4961932974deg) translate3d(0, 63.8347622958px, 0) scaleY(0.638347623);
+}
+#app .container .r8 .s18 {
+  transform: rotate(245.0429737922deg) translate3d(0, 94.0904538108px, 0) scaleY(0.9409045381);
+}
+#app .container .r8 .s19 {
+  transform: rotate(265.7324216546deg) translate3d(0, 81.0496494457px, 0) scaleY(0.8104964945);
+}
+#app .container .r8 .s20 {
+  transform: rotate(276.7678011497deg) translate3d(0, 60.6450395853px, 0) scaleY(0.6064503959);
+}
+#app .container .r8 .s21 {
+  transform: rotate(295.2743210069deg) translate3d(0, 86.615584824px, 0) scaleY(0.8661558482);
+}
+#app .container .r8 .s22 {
+  transform: rotate(313.9114530431deg) translate3d(0, 64.316878158px, 0) scaleY(0.6431687816);
+}
+#app .container .r8 .s23 {
+  transform: rotate(326.350115401deg) translate3d(0, 92.7392041454px, 0) scaleY(0.9273920415);
+}
+#app .container .r8 .s24 {
+  transform: rotate(339.4513411801deg) translate3d(0, 91.5524108206px, 0) scaleY(0.9155241082);
+}
+#app .container .r9 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.0666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.0666666667s infinite;
+}
+#app .container .r9 .s1 {
+  transform: rotate(-0.4447945734deg) translate3d(0, 69.038397326px, 0) scaleY(0.6903839733);
+}
+#app .container .r9 .s2 {
+  transform: rotate(14.2770940265deg) translate3d(0, 80.1438623037px, 0) scaleY(0.801438623);
+}
+#app .container .r9 .s3 {
+  transform: rotate(25.0389180383deg) translate3d(0, 64.0644838868px, 0) scaleY(0.6406448389);
+}
+#app .container .r9 .s4 {
+  transform: rotate(42.1136822775deg) translate3d(0, 97.2505273459px, 0) scaleY(0.9725052735);
+}
+#app .container .r9 .s5 {
+  transform: rotate(57.3464862834deg) translate3d(0, 94.849841059px, 0) scaleY(0.9484984106);
+}
+#app .container .r9 .s6 {
+  transform: rotate(67.012326003deg) translate3d(0, 60.4248850309px, 0) scaleY(0.6042488503);
+}
+#app .container .r9 .s7 {
+  transform: rotate(87.7684809805deg) translate3d(0, 84.6116374071px, 0) scaleY(0.8461163741);
+}
+#app .container .r9 .s8 {
+  transform: rotate(97.1299684285deg) translate3d(0, 81.0241964407px, 0) scaleY(0.8102419644);
+}
+#app .container .r9 .s9 {
+  transform: rotate(113.6039341982deg) translate3d(0, 76.5340824877px, 0) scaleY(0.7653408249);
+}
+#app .container .r9 .s10 {
+  transform: rotate(125.3093431618deg) translate3d(0, 99.833236656px, 0) scaleY(0.9983323666);
+}
+#app .container .r9 .s11 {
+  transform: rotate(143.9606746695deg) translate3d(0, 83.0406618273px, 0) scaleY(0.8304066183);
+}
+#app .container .r9 .s12 {
+  transform: rotate(161.3073665191deg) translate3d(0, 84.8514070805px, 0) scaleY(0.8485140708);
+}
+#app .container .r9 .s13 {
+  transform: rotate(177.0966277233deg) translate3d(0, 97.8730413649px, 0) scaleY(0.9787304136);
+}
+#app .container .r9 .s14 {
+  transform: rotate(193.9797060273deg) translate3d(0, 84.3326217595px, 0) scaleY(0.8433262176);
+}
+#app .container .r9 .s15 {
+  transform: rotate(200.3766119894deg) translate3d(0, 85.2744634787px, 0) scaleY(0.8527446348);
+}
+#app .container .r9 .s16 {
+  transform: rotate(220.8024754017deg) translate3d(0, 67.9660706135px, 0) scaleY(0.6796607061);
+}
+#app .container .r9 .s17 {
+  transform: rotate(239.3743454035deg) translate3d(0, 70.7065306425px, 0) scaleY(0.7070653064);
+}
+#app .container .r9 .s18 {
+  transform: rotate(253.5982989153deg) translate3d(0, 68.7336385625px, 0) scaleY(0.6873363856);
+}
+#app .container .r9 .s19 {
+  transform: rotate(264.0498430889deg) translate3d(0, 89.1250146462px, 0) scaleY(0.8912501465);
+}
+#app .container .r9 .s20 {
+  transform: rotate(282.599680731deg) translate3d(0, 77.9889570332px, 0) scaleY(0.7798895703);
+}
+#app .container .r9 .s21 {
+  transform: rotate(296.599100611deg) translate3d(0, 96.4367700851px, 0) scaleY(0.9643677009);
+}
+#app .container .r9 .s22 {
+  transform: rotate(312.2587297561deg) translate3d(0, 63.9485462275px, 0) scaleY(0.6394854623);
+}
+#app .container .r9 .s23 {
+  transform: rotate(320.7148142936deg) translate3d(0, 86.3768022902px, 0) scaleY(0.8637680229);
+}
+#app .container .r9 .s24 {
+  transform: rotate(343.5283992731deg) translate3d(0, 61.1355527447px, 0) scaleY(0.6113555274);
+}
+#app .container .r10 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.2s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.2s infinite;
+}
+#app .container .r10 .s1 {
+  transform: rotate(-7.3154902192deg) translate3d(0, 63.8211624289px, 0) scaleY(0.6382116243);
+}
+#app .container .r10 .s2 {
+  transform: rotate(7.7915407331deg) translate3d(0, 84.1078397781px, 0) scaleY(0.8410783978);
+}
+#app .container .r10 .s3 {
+  transform: rotate(27.7777233442deg) translate3d(0, 88.353560537px, 0) scaleY(0.8835356054);
+}
+#app .container .r10 .s4 {
+  transform: rotate(41.1934456853deg) translate3d(0, 73.6264822033px, 0) scaleY(0.736264822);
+}
+#app .container .r10 .s5 {
+  transform: rotate(54.1430716178deg) translate3d(0, 94.9307981012px, 0) scaleY(0.949307981);
+}
+#app .container .r10 .s6 {
+  transform: rotate(73.733225567deg) translate3d(0, 79.8758802479px, 0) scaleY(0.7987588025);
+}
+#app .container .r10 .s7 {
+  transform: rotate(82.6106065144deg) translate3d(0, 95.954985328px, 0) scaleY(0.9595498533);
+}
+#app .container .r10 .s8 {
+  transform: rotate(101.6888147643deg) translate3d(0, 65.7219726963px, 0) scaleY(0.657219727);
+}
+#app .container .r10 .s9 {
+  transform: rotate(117.0298410059deg) translate3d(0, 65.4581789614px, 0) scaleY(0.6545817896);
+}
+#app .container .r10 .s10 {
+  transform: rotate(130.6685448976deg) translate3d(0, 85.5360556827px, 0) scaleY(0.8553605568);
+}
+#app .container .r10 .s11 {
+  transform: rotate(146.2916602897deg) translate3d(0, 77.0559164309px, 0) scaleY(0.7705591643);
+}
+#app .container .r10 .s12 {
+  transform: rotate(161.0882319247deg) translate3d(0, 95.1257949481px, 0) scaleY(0.9512579495);
+}
+#app .container .r10 .s13 {
+  transform: rotate(174.110484094deg) translate3d(0, 70.4269500332px, 0) scaleY(0.7042695003);
+}
+#app .container .r10 .s14 {
+  transform: rotate(187.4017421063deg) translate3d(0, 98.5381343204px, 0) scaleY(0.9853813432);
+}
+#app .container .r10 .s15 {
+  transform: rotate(203.4320852021deg) translate3d(0, 72.6288112375px, 0) scaleY(0.7262881124);
+}
+#app .container .r10 .s16 {
+  transform: rotate(223.9514359165deg) translate3d(0, 69.3789601914px, 0) scaleY(0.6937896019);
+}
+#app .container .r10 .s17 {
+  transform: rotate(231.3191282591deg) translate3d(0, 89.9478244987px, 0) scaleY(0.899478245);
+}
+#app .container .r10 .s18 {
+  transform: rotate(245.5991055506deg) translate3d(0, 80.0747439586px, 0) scaleY(0.8007474396);
+}
+#app .container .r10 .s19 {
+  transform: rotate(264.7563226688deg) translate3d(0, 98.0331341244px, 0) scaleY(0.9803313412);
+}
+#app .container .r10 .s20 {
+  transform: rotate(277.9896966574deg) translate3d(0, 68.4428779875px, 0) scaleY(0.6844287799);
+}
+#app .container .r10 .s21 {
+  transform: rotate(291.7314384509deg) translate3d(0, 78.2153540468px, 0) scaleY(0.7821535405);
+}
+#app .container .r10 .s22 {
+  transform: rotate(309.5886411442deg) translate3d(0, 91.5837327355px, 0) scaleY(0.9158373274);
+}
+#app .container .r10 .s23 {
+  transform: rotate(325.437362017deg) translate3d(0, 79.2919529508px, 0) scaleY(0.7929195295);
+}
+#app .container .r10 .s24 {
+  transform: rotate(343.2608177935deg) translate3d(0, 85.6204220208px, 0) scaleY(0.8562042202);
+}
+#app .container .r11 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.3333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.3333333333s infinite;
+}
+#app .container .r11 .s1 {
+  transform: rotate(-6.4762483412deg) translate3d(0, 75.9152213174px, 0) scaleY(0.7591522132);
+}
+#app .container .r11 .s2 {
+  transform: rotate(5.7983579357deg) translate3d(0, 67.2157848743px, 0) scaleY(0.6721578487);
+}
+#app .container .r11 .s3 {
+  transform: rotate(23.9540814948deg) translate3d(0, 60.3045656857px, 0) scaleY(0.6030456569);
+}
+#app .container .r11 .s4 {
+  transform: rotate(39.0057148851deg) translate3d(0, 86.5865540945px, 0) scaleY(0.8658655409);
+}
+#app .container .r11 .s5 {
+  transform: rotate(55.7279416286deg) translate3d(0, 65.8682962418px, 0) scaleY(0.6586829624);
+}
+#app .container .r11 .s6 {
+  transform: rotate(72.1496247376deg) translate3d(0, 93.1616796334px, 0) scaleY(0.9316167963);
+}
+#app .container .r11 .s7 {
+  transform: rotate(81.7080936667deg) translate3d(0, 74.3730960008px, 0) scaleY(0.74373096);
+}
+#app .container .r11 .s8 {
+  transform: rotate(101.3073986496deg) translate3d(0, 98.3844573095px, 0) scaleY(0.9838445731);
+}
+#app .container .r11 .s9 {
+  transform: rotate(114.7989009452deg) translate3d(0, 71.8750072851px, 0) scaleY(0.7187500729);
+}
+#app .container .r11 .s10 {
+  transform: rotate(129.3285190228deg) translate3d(0, 74.9534945236px, 0) scaleY(0.7495349452);
+}
+#app .container .r11 .s11 {
+  transform: rotate(143.9207769346deg) translate3d(0, 91.0031349185px, 0) scaleY(0.9100313492);
+}
+#app .container .r11 .s12 {
+  transform: rotate(163.0309611184deg) translate3d(0, 75.4184290037px, 0) scaleY(0.75418429);
+}
+#app .container .r11 .s13 {
+  transform: rotate(170.3581963967deg) translate3d(0, 60.187832839px, 0) scaleY(0.6018783284);
+}
+#app .container .r11 .s14 {
+  transform: rotate(194.4904912207deg) translate3d(0, 86.2047334766px, 0) scaleY(0.8620473348);
+}
+#app .container .r11 .s15 {
+  transform: rotate(202.2310437846deg) translate3d(0, 62.2728382162px, 0) scaleY(0.6227283822);
+}
+#app .container .r11 .s16 {
+  transform: rotate(218.0835301554deg) translate3d(0, 60.130427995px, 0) scaleY(0.60130428);
+}
+#app .container .r11 .s17 {
+  transform: rotate(233.1239260959deg) translate3d(0, 64.7738707958px, 0) scaleY(0.647738708);
+}
+#app .container .r11 .s18 {
+  transform: rotate(252.0306876068deg) translate3d(0, 67.798562937px, 0) scaleY(0.6779856294);
+}
+#app .container .r11 .s19 {
+  transform: rotate(266.1536427249deg) translate3d(0, 68.3423604834px, 0) scaleY(0.6834236048);
+}
+#app .container .r11 .s20 {
+  transform: rotate(280.1746317731deg) translate3d(0, 79.1147587044px, 0) scaleY(0.791147587);
+}
+#app .container .r11 .s21 {
+  transform: rotate(292.2311752228deg) translate3d(0, 80.3288923609px, 0) scaleY(0.8032889236);
+}
+#app .container .r11 .s22 {
+  transform: rotate(313.8961362779deg) translate3d(0, 88.7706142763px, 0) scaleY(0.8877061428);
+}
+#app .container .r11 .s23 {
+  transform: rotate(324.8764817766deg) translate3d(0, 63.1709888433px, 0) scaleY(0.6317098884);
+}
+#app .container .r11 .s24 {
+  transform: rotate(340.1041814808deg) translate3d(0, 85.7024851816px, 0) scaleY(0.8570248518);
+}
+#app .container .r12 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.4666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.4666666667s infinite;
+}
+#app .container .r12 .s1 {
+  transform: rotate(-3.2883051926deg) translate3d(0, 86.8990083449px, 0) scaleY(0.8689900834);
+}
+#app .container .r12 .s2 {
+  transform: rotate(12.9300583522deg) translate3d(0, 93.0266029406px, 0) scaleY(0.9302660294);
+}
+#app .container .r12 .s3 {
+  transform: rotate(24.9864335421deg) translate3d(0, 72.0628056819px, 0) scaleY(0.7206280568);
+}
+#app .container .r12 .s4 {
+  transform: rotate(38.2921088338deg) translate3d(0, 85.0199310097px, 0) scaleY(0.8501993101);
+}
+#app .container .r12 .s5 {
+  transform: rotate(50.1222756681deg) translate3d(0, 95.6765662893px, 0) scaleY(0.9567656629);
+}
+#app .container .r12 .s6 {
+  transform: rotate(71.8462969087deg) translate3d(0, 82.3497630937px, 0) scaleY(0.8234976309);
+}
+#app .container .r12 .s7 {
+  transform: rotate(84.0961715608deg) translate3d(0, 64.9293947976px, 0) scaleY(0.649293948);
+}
+#app .container .r12 .s8 {
+  transform: rotate(98.2850141086deg) translate3d(0, 69.3917647171px, 0) scaleY(0.6939176472);
+}
+#app .container .r12 .s9 {
+  transform: rotate(117.1400694227deg) translate3d(0, 76.6449957786px, 0) scaleY(0.7664499578);
+}
+#app .container .r12 .s10 {
+  transform: rotate(129.2639700926deg) translate3d(0, 60.9486617253px, 0) scaleY(0.6094866173);
+}
+#app .container .r12 .s11 {
+  transform: rotate(148.9870482159deg) translate3d(0, 92.9104193508px, 0) scaleY(0.9291041935);
+}
+#app .container .r12 .s12 {
+  transform: rotate(164.6469742781deg) translate3d(0, 87.2260238878px, 0) scaleY(0.8722602389);
+}
+#app .container .r12 .s13 {
+  transform: rotate(173.6323113721deg) translate3d(0, 84.5850142786px, 0) scaleY(0.8458501428);
+}
+#app .container .r12 .s14 {
+  transform: rotate(191.3752375743deg) translate3d(0, 89.6379629647px, 0) scaleY(0.8963796296);
+}
+#app .container .r12 .s15 {
+  transform: rotate(205.8866526523deg) translate3d(0, 98.9625699197px, 0) scaleY(0.9896256992);
+}
+#app .container .r12 .s16 {
+  transform: rotate(220.6252856882deg) translate3d(0, 96.0373368209px, 0) scaleY(0.9603733682);
+}
+#app .container .r12 .s17 {
+  transform: rotate(239.8858607182deg) translate3d(0, 61.1348790218px, 0) scaleY(0.6113487902);
+}
+#app .container .r12 .s18 {
+  transform: rotate(246.5188973562deg) translate3d(0, 96.4827705283px, 0) scaleY(0.9648277053);
+}
+#app .container .r12 .s19 {
+  transform: rotate(269.7379932128deg) translate3d(0, 70.4974050499px, 0) scaleY(0.7049740505);
+}
+#app .container .r12 .s20 {
+  transform: rotate(277.9949097147deg) translate3d(0, 69.4605980462px, 0) scaleY(0.6946059805);
+}
+#app .container .r12 .s21 {
+  transform: rotate(293.7489128144deg) translate3d(0, 60.1852227942px, 0) scaleY(0.6018522279);
+}
+#app .container .r12 .s22 {
+  transform: rotate(309.9898549164deg) translate3d(0, 67.306173853px, 0) scaleY(0.6730617385);
+}
+#app .container .r12 .s23 {
+  transform: rotate(327.5888008101deg) translate3d(0, 63.6026027242px, 0) scaleY(0.6360260272);
+}
+#app .container .r12 .s24 {
+  transform: rotate(339.1421127621deg) translate3d(0, 99.6739723543px, 0) scaleY(0.9967397235);
+}
+#app .container .r13 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.6s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.6s infinite;
+}
+#app .container .r13 .s1 {
+  transform: rotate(-4.5800886173deg) translate3d(0, 82.588508381px, 0) scaleY(0.8258850838);
+}
+#app .container .r13 .s2 {
+  transform: rotate(6.2246872303deg) translate3d(0, 74.5469268725px, 0) scaleY(0.7454692687);
+}
+#app .container .r13 .s3 {
+  transform: rotate(22.3358875903deg) translate3d(0, 72.692607052px, 0) scaleY(0.7269260705);
+}
+#app .container .r13 .s4 {
+  transform: rotate(39.9200634213deg) translate3d(0, 85.8067190384px, 0) scaleY(0.8580671904);
+}
+#app .container .r13 .s5 {
+  transform: rotate(58.2260140739deg) translate3d(0, 68.3779911144px, 0) scaleY(0.6837799111);
+}
+#app .container .r13 .s6 {
+  transform: rotate(71.8580249174deg) translate3d(0, 73.4999456664px, 0) scaleY(0.7349994567);
+}
+#app .container .r13 .s7 {
+  transform: rotate(83.3850153259deg) translate3d(0, 68.6120690342px, 0) scaleY(0.6861206903);
+}
+#app .container .r13 .s8 {
+  transform: rotate(95.862015465deg) translate3d(0, 61.3789296328px, 0) scaleY(0.6137892963);
+}
+#app .container .r13 .s9 {
+  transform: rotate(114.3234449296deg) translate3d(0, 71.6078687566px, 0) scaleY(0.7160786876);
+}
+#app .container .r13 .s10 {
+  transform: rotate(134.8592494571deg) translate3d(0, 75.6054437181px, 0) scaleY(0.7560544372);
+}
+#app .container .r13 .s11 {
+  transform: rotate(144.8967387072deg) translate3d(0, 79.3719135569px, 0) scaleY(0.7937191356);
+}
+#app .container .r13 .s12 {
+  transform: rotate(164.3039578346deg) translate3d(0, 99.9258356604px, 0) scaleY(0.9992583566);
+}
+#app .container .r13 .s13 {
+  transform: rotate(170.8738632843deg) translate3d(0, 82.6770931385px, 0) scaleY(0.8267709314);
+}
+#app .container .r13 .s14 {
+  transform: rotate(192.765674282deg) translate3d(0, 87.9011814261px, 0) scaleY(0.8790118143);
+}
+#app .container .r13 .s15 {
+  transform: rotate(202.6045604419deg) translate3d(0, 84.4005572758px, 0) scaleY(0.8440055728);
+}
+#app .container .r13 .s16 {
+  transform: rotate(223.9498166361deg) translate3d(0, 63.4676808392px, 0) scaleY(0.6346768084);
+}
+#app .container .r13 .s17 {
+  transform: rotate(236.7069975872deg) translate3d(0, 78.1233205815px, 0) scaleY(0.7812332058);
+}
+#app .container .r13 .s18 {
+  transform: rotate(251.0238980531deg) translate3d(0, 68.5867653694px, 0) scaleY(0.6858676537);
+}
+#app .container .r13 .s19 {
+  transform: rotate(269.730385884deg) translate3d(0, 62.6297603158px, 0) scaleY(0.6262976032);
+}
+#app .container .r13 .s20 {
+  transform: rotate(282.8029685098deg) translate3d(0, 82.7935558808px, 0) scaleY(0.8279355588);
+}
+#app .container .r13 .s21 {
+  transform: rotate(293.0797157506deg) translate3d(0, 87.6492998842px, 0) scaleY(0.8764929988);
+}
+#app .container .r13 .s22 {
+  transform: rotate(311.3079469581deg) translate3d(0, 66.1769854952px, 0) scaleY(0.661769855);
+}
+#app .container .r13 .s23 {
+  transform: rotate(324.166075538deg) translate3d(0, 78.6166805624px, 0) scaleY(0.7861668056);
+}
+#app .container .r13 .s24 {
+  transform: rotate(341.345140706deg) translate3d(0, 72.4208969509px, 0) scaleY(0.7242089695);
+}
+#app .container .r14 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.7333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.7333333333s infinite;
+}
+#app .container .r14 .s1 {
+  transform: rotate(-6.7225843771deg) translate3d(0, 63.6602833142px, 0) scaleY(0.6366028331);
+}
+#app .container .r14 .s2 {
+  transform: rotate(10.9058032725deg) translate3d(0, 78.4431684997px, 0) scaleY(0.784431685);
+}
+#app .container .r14 .s3 {
+  transform: rotate(23.9843400305deg) translate3d(0, 75.8698816462px, 0) scaleY(0.7586988165);
+}
+#app .container .r14 .s4 {
+  transform: rotate(35.655809275deg) translate3d(0, 95.1922889637px, 0) scaleY(0.9519228896);
+}
+#app .container .r14 .s5 {
+  transform: rotate(52.3699477259deg) translate3d(0, 69.930303593px, 0) scaleY(0.6993030359);
+}
+#app .container .r14 .s6 {
+  transform: rotate(74.7342159682deg) translate3d(0, 81.3854811602px, 0) scaleY(0.8138548116);
+}
+#app .container .r14 .s7 {
+  transform: rotate(85.6330890206deg) translate3d(0, 66.1998891697px, 0) scaleY(0.6619988917);
+}
+#app .container .r14 .s8 {
+  transform: rotate(98.221665675deg) translate3d(0, 73.707434314px, 0) scaleY(0.7370743431);
+}
+#app .container .r14 .s9 {
+  transform: rotate(118.8351576783deg) translate3d(0, 72.7673378898px, 0) scaleY(0.7276733789);
+}
+#app .container .r14 .s10 {
+  transform: rotate(131.4659077937deg) translate3d(0, 65.4913588157px, 0) scaleY(0.6549135882);
+}
+#app .container .r14 .s11 {
+  transform: rotate(147.163256843deg) translate3d(0, 94.0970020404px, 0) scaleY(0.9409700204);
+}
+#app .container .r14 .s12 {
+  transform: rotate(156.6591174884deg) translate3d(0, 78.8721205227px, 0) scaleY(0.7887212052);
+}
+#app .container .r14 .s13 {
+  transform: rotate(170.791968099deg) translate3d(0, 92.9341821913px, 0) scaleY(0.9293418219);
+}
+#app .container .r14 .s14 {
+  transform: rotate(188.9905441796deg) translate3d(0, 63.3408473868px, 0) scaleY(0.6334084739);
+}
+#app .container .r14 .s15 {
+  transform: rotate(201.5704135716deg) translate3d(0, 63.3897744484px, 0) scaleY(0.6338977445);
+}
+#app .container .r14 .s16 {
+  transform: rotate(223.0235171732deg) translate3d(0, 62.9744146051px, 0) scaleY(0.6297441461);
+}
+#app .container .r14 .s17 {
+  transform: rotate(238.6641248913deg) translate3d(0, 90.2181511629px, 0) scaleY(0.9021815116);
+}
+#app .container .r14 .s18 {
+  transform: rotate(253.9104853795deg) translate3d(0, 89.9174358557px, 0) scaleY(0.8991743586);
+}
+#app .container .r14 .s19 {
+  transform: rotate(265.0962754248deg) translate3d(0, 65.0603670429px, 0) scaleY(0.6506036704);
+}
+#app .container .r14 .s20 {
+  transform: rotate(281.4682670117deg) translate3d(0, 63.1011799757px, 0) scaleY(0.6310117998);
+}
+#app .container .r14 .s21 {
+  transform: rotate(293.5281837587deg) translate3d(0, 79.6366354989px, 0) scaleY(0.796366355);
+}
+#app .container .r14 .s22 {
+  transform: rotate(306.6388763038deg) translate3d(0, 94.3771538979px, 0) scaleY(0.943771539);
+}
+#app .container .r14 .s23 {
+  transform: rotate(327.1987541449deg) translate3d(0, 67.4002893941px, 0) scaleY(0.6740028939);
+}
+#app .container .r14 .s24 {
+  transform: rotate(344.4856689439deg) translate3d(0, 69.7013540371px, 0) scaleY(0.6970135404);
+}
+#app .container .r15 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.8666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -1.8666666667s infinite;
+}
+#app .container .r15 .s1 {
+  transform: rotate(-4.2108523107deg) translate3d(0, 86.565904144px, 0) scaleY(0.8656590414);
+}
+#app .container .r15 .s2 {
+  transform: rotate(6.8950522093deg) translate3d(0, 83.5772047922px, 0) scaleY(0.8357720479);
+}
+#app .container .r15 .s3 {
+  transform: rotate(27.7491601131deg) translate3d(0, 96.3566547221px, 0) scaleY(0.9635665472);
+}
+#app .container .r15 .s4 {
+  transform: rotate(39.5411163284deg) translate3d(0, 63.2744249967px, 0) scaleY(0.63274425);
+}
+#app .container .r15 .s5 {
+  transform: rotate(51.8895106439deg) translate3d(0, 61.4950443857px, 0) scaleY(0.6149504439);
+}
+#app .container .r15 .s6 {
+  transform: rotate(74.4115283411deg) translate3d(0, 98.671169079px, 0) scaleY(0.9867116908);
+}
+#app .container .r15 .s7 {
+  transform: rotate(82.9490785349deg) translate3d(0, 82.3629615256px, 0) scaleY(0.8236296153);
+}
+#app .container .r15 .s8 {
+  transform: rotate(95.8800325842deg) translate3d(0, 77.2286897569px, 0) scaleY(0.7722868976);
+}
+#app .container .r15 .s9 {
+  transform: rotate(113.5106323344deg) translate3d(0, 96.7011686978px, 0) scaleY(0.967011687);
+}
+#app .container .r15 .s10 {
+  transform: rotate(126.2949045269deg) translate3d(0, 88.0629328999px, 0) scaleY(0.880629329);
+}
+#app .container .r15 .s11 {
+  transform: rotate(147.1238156175deg) translate3d(0, 73.4461137161px, 0) scaleY(0.7344611372);
+}
+#app .container .r15 .s12 {
+  transform: rotate(163.0374897714deg) translate3d(0, 61.9540822661px, 0) scaleY(0.6195408227);
+}
+#app .container .r15 .s13 {
+  transform: rotate(171.2881957466deg) translate3d(0, 88.6046984174px, 0) scaleY(0.8860469842);
+}
+#app .container .r15 .s14 {
+  transform: rotate(187.6757318412deg) translate3d(0, 98.3667681212px, 0) scaleY(0.9836676812);
+}
+#app .container .r15 .s15 {
+  transform: rotate(204.3862525676deg) translate3d(0, 81.3319482719px, 0) scaleY(0.8133194827);
+}
+#app .container .r15 .s16 {
+  transform: rotate(216.7315697806deg) translate3d(0, 91.7296491587px, 0) scaleY(0.9172964916);
+}
+#app .container .r15 .s17 {
+  transform: rotate(232.3948757944deg) translate3d(0, 61.9567599681px, 0) scaleY(0.6195675997);
+}
+#app .container .r15 .s18 {
+  transform: rotate(249.3706162838deg) translate3d(0, 82.4048274322px, 0) scaleY(0.8240482743);
+}
+#app .container .r15 .s19 {
+  transform: rotate(268.9835328132deg) translate3d(0, 91.2854535701px, 0) scaleY(0.9128545357);
+}
+#app .container .r15 .s20 {
+  transform: rotate(280.2058697761deg) translate3d(0, 68.9236869066px, 0) scaleY(0.6892368691);
+}
+#app .container .r15 .s21 {
+  transform: rotate(294.8696940568deg) translate3d(0, 90.6546992203px, 0) scaleY(0.9065469922);
+}
+#app .container .r15 .s22 {
+  transform: rotate(311.3587120515deg) translate3d(0, 96.5025800499px, 0) scaleY(0.9650258005);
+}
+#app .container .r15 .s23 {
+  transform: rotate(323.4737496376deg) translate3d(0, 64.8612897058px, 0) scaleY(0.6486128971);
+}
+#app .container .r15 .s24 {
+  transform: rotate(344.8208976888deg) translate3d(0, 65.9331547858px, 0) scaleY(0.6593315479);
+}
+#app .container .r16 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2s infinite;
+}
+#app .container .r16 .s1 {
+  transform: rotate(-8.6649641396deg) translate3d(0, 85.2753658905px, 0) scaleY(0.8527536589);
+}
+#app .container .r16 .s2 {
+  transform: rotate(10.3107228371deg) translate3d(0, 91.3062959363px, 0) scaleY(0.9130629594);
+}
+#app .container .r16 .s3 {
+  transform: rotate(25.0615934872deg) translate3d(0, 65.20660908px, 0) scaleY(0.6520660908);
+}
+#app .container .r16 .s4 {
+  transform: rotate(35.7466231854deg) translate3d(0, 72.53259062px, 0) scaleY(0.7253259062);
+}
+#app .container .r16 .s5 {
+  transform: rotate(51.3618973656deg) translate3d(0, 93.0821140723px, 0) scaleY(0.9308211407);
+}
+#app .container .r16 .s6 {
+  transform: rotate(67.1376897248deg) translate3d(0, 60.1077300685px, 0) scaleY(0.6010773007);
+}
+#app .container .r16 .s7 {
+  transform: rotate(87.1149446872deg) translate3d(0, 84.8573910977px, 0) scaleY(0.848573911);
+}
+#app .container .r16 .s8 {
+  transform: rotate(98.9506662039deg) translate3d(0, 73.4081976952px, 0) scaleY(0.734081977);
+}
+#app .container .r16 .s9 {
+  transform: rotate(116.2222799246deg) translate3d(0, 62.3471041219px, 0) scaleY(0.6234710412);
+}
+#app .container .r16 .s10 {
+  transform: rotate(129.2803033771deg) translate3d(0, 70.1196324727px, 0) scaleY(0.7011963247);
+}
+#app .container .r16 .s11 {
+  transform: rotate(141.8799904093deg) translate3d(0, 73.5756911236px, 0) scaleY(0.7357569112);
+}
+#app .container .r16 .s12 {
+  transform: rotate(161.0440125143deg) translate3d(0, 78.1640648094px, 0) scaleY(0.7816406481);
+}
+#app .container .r16 .s13 {
+  transform: rotate(178.9758981133deg) translate3d(0, 67.8979790718px, 0) scaleY(0.6789797907);
+}
+#app .container .r16 .s14 {
+  transform: rotate(193.3040370468deg) translate3d(0, 84.3821861154px, 0) scaleY(0.8438218612);
+}
+#app .container .r16 .s15 {
+  transform: rotate(207.9342948378deg) translate3d(0, 65.2130236192px, 0) scaleY(0.6521302362);
+}
+#app .container .r16 .s16 {
+  transform: rotate(218.2452387726deg) translate3d(0, 87.3556444019px, 0) scaleY(0.873556444);
+}
+#app .container .r16 .s17 {
+  transform: rotate(235.1487302715deg) translate3d(0, 61.1445306258px, 0) scaleY(0.6114453063);
+}
+#app .container .r16 .s18 {
+  transform: rotate(249.7047134406deg) translate3d(0, 68.1798705381px, 0) scaleY(0.6817987054);
+}
+#app .container .r16 .s19 {
+  transform: rotate(261.8829642099deg) translate3d(0, 78.6040346305px, 0) scaleY(0.7860403463);
+}
+#app .container .r16 .s20 {
+  transform: rotate(281.3381485042deg) translate3d(0, 61.6239185358px, 0) scaleY(0.6162391854);
+}
+#app .container .r16 .s21 {
+  transform: rotate(297.7982993388deg) translate3d(0, 85.9541815099px, 0) scaleY(0.8595418151);
+}
+#app .container .r16 .s22 {
+  transform: rotate(312.9231185845deg) translate3d(0, 78.1686250535px, 0) scaleY(0.7816862505);
+}
+#app .container .r16 .s23 {
+  transform: rotate(329.4138431352deg) translate3d(0, 78.6153414614px, 0) scaleY(0.7861534146);
+}
+#app .container .r16 .s24 {
+  transform: rotate(339.567015503deg) translate3d(0, 96.4143487287px, 0) scaleY(0.9641434873);
+}
+#app .container .r17 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.1333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.1333333333s infinite;
+}
+#app .container .r17 .s1 {
+  transform: rotate(-8.5254179885deg) translate3d(0, 72.5593977441px, 0) scaleY(0.7255939774);
+}
+#app .container .r17 .s2 {
+  transform: rotate(12.5265995582deg) translate3d(0, 79.3932675544px, 0) scaleY(0.7939326755);
+}
+#app .container .r17 .s3 {
+  transform: rotate(25.9678206937deg) translate3d(0, 95.9158826432px, 0) scaleY(0.9591588264);
+}
+#app .container .r17 .s4 {
+  transform: rotate(36.63816077deg) translate3d(0, 84.7414055px, 0) scaleY(0.847414055);
+}
+#app .container .r17 .s5 {
+  transform: rotate(52.3295526791deg) translate3d(0, 67.5790818487px, 0) scaleY(0.6757908185);
+}
+#app .container .r17 .s6 {
+  transform: rotate(72.4100541861deg) translate3d(0, 91.174107948px, 0) scaleY(0.9117410795);
+}
+#app .container .r17 .s7 {
+  transform: rotate(82.5122942993deg) translate3d(0, 95.9242219221px, 0) scaleY(0.9592422192);
+}
+#app .container .r17 .s8 {
+  transform: rotate(98.1755939395deg) translate3d(0, 63.021161831px, 0) scaleY(0.6302116183);
+}
+#app .container .r17 .s9 {
+  transform: rotate(110.0272431146deg) translate3d(0, 94.7799932237px, 0) scaleY(0.9477999322);
+}
+#app .container .r17 .s10 {
+  transform: rotate(126.4884986091deg) translate3d(0, 80.2972981215px, 0) scaleY(0.8029729812);
+}
+#app .container .r17 .s11 {
+  transform: rotate(140.6098080961deg) translate3d(0, 88.5443684784px, 0) scaleY(0.8854436848);
+}
+#app .container .r17 .s12 {
+  transform: rotate(158.7088947264deg) translate3d(0, 95.8193153056px, 0) scaleY(0.9581931531);
+}
+#app .container .r17 .s13 {
+  transform: rotate(171.7560419258deg) translate3d(0, 63.5872713202px, 0) scaleY(0.6358727132);
+}
+#app .container .r17 .s14 {
+  transform: rotate(193.3181730424deg) translate3d(0, 86.8152106339px, 0) scaleY(0.8681521063);
+}
+#app .container .r17 .s15 {
+  transform: rotate(200.3139665336deg) translate3d(0, 64.4601411948px, 0) scaleY(0.6446014119);
+}
+#app .container .r17 .s16 {
+  transform: rotate(215.670267438deg) translate3d(0, 86.3236398731px, 0) scaleY(0.8632363987);
+}
+#app .container .r17 .s17 {
+  transform: rotate(231.3848937586deg) translate3d(0, 86.7058281799px, 0) scaleY(0.8670582818);
+}
+#app .container .r17 .s18 {
+  transform: rotate(245.8923878868deg) translate3d(0, 78.1516545732px, 0) scaleY(0.7815165457);
+}
+#app .container .r17 .s19 {
+  transform: rotate(266.9548178843deg) translate3d(0, 87.9369602812px, 0) scaleY(0.8793696028);
+}
+#app .container .r17 .s20 {
+  transform: rotate(281.593038116deg) translate3d(0, 61.4704515949px, 0) scaleY(0.6147045159);
+}
+#app .container .r17 .s21 {
+  transform: rotate(298.8924265821deg) translate3d(0, 90.8828058398px, 0) scaleY(0.9088280584);
+}
+#app .container .r17 .s22 {
+  transform: rotate(314.4899981523deg) translate3d(0, 78.7605302441px, 0) scaleY(0.7876053024);
+}
+#app .container .r17 .s23 {
+  transform: rotate(326.8246760349deg) translate3d(0, 74.1332235338px, 0) scaleY(0.7413322353);
+}
+#app .container .r17 .s24 {
+  transform: rotate(338.2949042947deg) translate3d(0, 75.5630829289px, 0) scaleY(0.7556308293);
+}
+#app .container .r18 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.2666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.2666666667s infinite;
+}
+#app .container .r18 .s1 {
+  transform: rotate(-6.7468502812deg) translate3d(0, 67.0984019026px, 0) scaleY(0.670984019);
+}
+#app .container .r18 .s2 {
+  transform: rotate(11.8593908633deg) translate3d(0, 75.9641863879px, 0) scaleY(0.7596418639);
+}
+#app .container .r18 .s3 {
+  transform: rotate(25.6782912865deg) translate3d(0, 90.2452902089px, 0) scaleY(0.9024529021);
+}
+#app .container .r18 .s4 {
+  transform: rotate(39.6226223884deg) translate3d(0, 86.4284292007px, 0) scaleY(0.864284292);
+}
+#app .container .r18 .s5 {
+  transform: rotate(51.3893418833deg) translate3d(0, 98.4693149896px, 0) scaleY(0.9846931499);
+}
+#app .container .r18 .s6 {
+  transform: rotate(72.0430605883deg) translate3d(0, 77.0804545551px, 0) scaleY(0.7708045456);
+}
+#app .container .r18 .s7 {
+  transform: rotate(88.735464577deg) translate3d(0, 77.7354752889px, 0) scaleY(0.7773547529);
+}
+#app .container .r18 .s8 {
+  transform: rotate(98.0142480997deg) translate3d(0, 83.6318350243px, 0) scaleY(0.8363183502);
+}
+#app .container .r18 .s9 {
+  transform: rotate(112.9738351512deg) translate3d(0, 61.8763836715px, 0) scaleY(0.6187638367);
+}
+#app .container .r18 .s10 {
+  transform: rotate(134.8822791926deg) translate3d(0, 63.7786290264px, 0) scaleY(0.6377862903);
+}
+#app .container .r18 .s11 {
+  transform: rotate(146.3929111337deg) translate3d(0, 68.256476322px, 0) scaleY(0.6825647632);
+}
+#app .container .r18 .s12 {
+  transform: rotate(161.6200080885deg) translate3d(0, 62.3481590872px, 0) scaleY(0.6234815909);
+}
+#app .container .r18 .s13 {
+  transform: rotate(174.769110559deg) translate3d(0, 98.4590645416px, 0) scaleY(0.9845906454);
+}
+#app .container .r18 .s14 {
+  transform: rotate(189.3997467349deg) translate3d(0, 71.9229919489px, 0) scaleY(0.7192299195);
+}
+#app .container .r18 .s15 {
+  transform: rotate(200.604658209deg) translate3d(0, 78.1737969489px, 0) scaleY(0.7817379695);
+}
+#app .container .r18 .s16 {
+  transform: rotate(223.004057849deg) translate3d(0, 95.3172531164px, 0) scaleY(0.9531725312);
+}
+#app .container .r18 .s17 {
+  transform: rotate(235.6955240807deg) translate3d(0, 78.6788372634px, 0) scaleY(0.7867883726);
+}
+#app .container .r18 .s18 {
+  transform: rotate(249.1645497005deg) translate3d(0, 60.6689567183px, 0) scaleY(0.6066895672);
+}
+#app .container .r18 .s19 {
+  transform: rotate(263.4225275777deg) translate3d(0, 66.4838276228px, 0) scaleY(0.6648382762);
+}
+#app .container .r18 .s20 {
+  transform: rotate(275.386645442deg) translate3d(0, 85.0740491983px, 0) scaleY(0.850740492);
+}
+#app .container .r18 .s21 {
+  transform: rotate(299.490391235deg) translate3d(0, 65.8344235698px, 0) scaleY(0.6583442357);
+}
+#app .container .r18 .s22 {
+  transform: rotate(314.7614655255deg) translate3d(0, 90.7290078782px, 0) scaleY(0.9072900788);
+}
+#app .container .r18 .s23 {
+  transform: rotate(321.4439174491deg) translate3d(0, 83.294337501px, 0) scaleY(0.832943375);
+}
+#app .container .r18 .s24 {
+  transform: rotate(344.5473452989deg) translate3d(0, 86.7350427771px, 0) scaleY(0.8673504278);
+}
+#app .container .r19 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.4s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.4s infinite;
+}
+#app .container .r19 .s1 {
+  transform: rotate(-3.5873728461deg) translate3d(0, 64.8558498655px, 0) scaleY(0.6485584987);
+}
+#app .container .r19 .s2 {
+  transform: rotate(10.6169593095deg) translate3d(0, 94.48947886px, 0) scaleY(0.9448947886);
+}
+#app .container .r19 .s3 {
+  transform: rotate(22.3798432739deg) translate3d(0, 71.3406722336px, 0) scaleY(0.7134067223);
+}
+#app .container .r19 .s4 {
+  transform: rotate(35.2825871142deg) translate3d(0, 75.6785527666px, 0) scaleY(0.7567855277);
+}
+#app .container .r19 .s5 {
+  transform: rotate(57.912326922deg) translate3d(0, 88.0900440667px, 0) scaleY(0.8809004407);
+}
+#app .container .r19 .s6 {
+  transform: rotate(71.1700142643deg) translate3d(0, 82.7740872369px, 0) scaleY(0.8277408724);
+}
+#app .container .r19 .s7 {
+  transform: rotate(80.6476499495deg) translate3d(0, 87.0232984083px, 0) scaleY(0.8702329841);
+}
+#app .container .r19 .s8 {
+  transform: rotate(100.8734796707deg) translate3d(0, 97.9499754746px, 0) scaleY(0.9794997547);
+}
+#app .container .r19 .s9 {
+  transform: rotate(112.120069148deg) translate3d(0, 62.3042517341px, 0) scaleY(0.6230425173);
+}
+#app .container .r19 .s10 {
+  transform: rotate(126.0692366827deg) translate3d(0, 73.2022554937px, 0) scaleY(0.7320225549);
+}
+#app .container .r19 .s11 {
+  transform: rotate(144.9303723152deg) translate3d(0, 72.1539051361px, 0) scaleY(0.7215390514);
+}
+#app .container .r19 .s12 {
+  transform: rotate(157.668488333deg) translate3d(0, 69.0696755809px, 0) scaleY(0.6906967558);
+}
+#app .container .r19 .s13 {
+  transform: rotate(179.2177423431deg) translate3d(0, 65.242789864px, 0) scaleY(0.6524278986);
+}
+#app .container .r19 .s14 {
+  transform: rotate(192.3228688514deg) translate3d(0, 86.6371642396px, 0) scaleY(0.8663716424);
+}
+#app .container .r19 .s15 {
+  transform: rotate(202.8421617165deg) translate3d(0, 91.0911734288px, 0) scaleY(0.9109117343);
+}
+#app .container .r19 .s16 {
+  transform: rotate(220.6888300111deg) translate3d(0, 60.5254729645px, 0) scaleY(0.6052547296);
+}
+#app .container .r19 .s17 {
+  transform: rotate(232.9425743278deg) translate3d(0, 96.219982617px, 0) scaleY(0.9621998262);
+}
+#app .container .r19 .s18 {
+  transform: rotate(250.7397256012deg) translate3d(0, 97.1610661675px, 0) scaleY(0.9716106617);
+}
+#app .container .r19 .s19 {
+  transform: rotate(261.7944064264deg) translate3d(0, 73.2455922761px, 0) scaleY(0.7324559228);
+}
+#app .container .r19 .s20 {
+  transform: rotate(278.6422616548deg) translate3d(0, 66.6665761169px, 0) scaleY(0.6666657612);
+}
+#app .container .r19 .s21 {
+  transform: rotate(292.2719940868deg) translate3d(0, 94.1665789441px, 0) scaleY(0.9416657894);
+}
+#app .container .r19 .s22 {
+  transform: rotate(307.2873506633deg) translate3d(0, 71.9060152987px, 0) scaleY(0.719060153);
+}
+#app .container .r19 .s23 {
+  transform: rotate(322.1599445196deg) translate3d(0, 90.5881880314px, 0) scaleY(0.9058818803);
+}
+#app .container .r19 .s24 {
+  transform: rotate(343.5706053885deg) translate3d(0, 65.9703091552px, 0) scaleY(0.6597030916);
+}
+#app .container .r20 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.5333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.5333333333s infinite;
+}
+#app .container .r20 .s1 {
+  transform: rotate(-1.3604143713deg) translate3d(0, 91.6482108921px, 0) scaleY(0.9164821089);
+}
+#app .container .r20 .s2 {
+  transform: rotate(11.4183501145deg) translate3d(0, 61.2096350905px, 0) scaleY(0.6120963509);
+}
+#app .container .r20 .s3 {
+  transform: rotate(24.8987349612deg) translate3d(0, 65.4216612741px, 0) scaleY(0.6542166127);
+}
+#app .container .r20 .s4 {
+  transform: rotate(40.2319392223deg) translate3d(0, 86.3462535776px, 0) scaleY(0.8634625358);
+}
+#app .container .r20 .s5 {
+  transform: rotate(53.4995579666deg) translate3d(0, 66.7876793297px, 0) scaleY(0.6678767933);
+}
+#app .container .r20 .s6 {
+  transform: rotate(69.3483219887deg) translate3d(0, 98.7868066611px, 0) scaleY(0.9878680666);
+}
+#app .container .r20 .s7 {
+  transform: rotate(86.5007366502deg) translate3d(0, 81.8446799047px, 0) scaleY(0.818446799);
+}
+#app .container .r20 .s8 {
+  transform: rotate(103.3873919493deg) translate3d(0, 99.6121799451px, 0) scaleY(0.9961217995);
+}
+#app .container .r20 .s9 {
+  transform: rotate(116.3233301752deg) translate3d(0, 87.164168835px, 0) scaleY(0.8716416884);
+}
+#app .container .r20 .s10 {
+  transform: rotate(126.2527240496deg) translate3d(0, 99.4141390509px, 0) scaleY(0.9941413905);
+}
+#app .container .r20 .s11 {
+  transform: rotate(140.4522685695deg) translate3d(0, 78.4205153696px, 0) scaleY(0.7842051537);
+}
+#app .container .r20 .s12 {
+  transform: rotate(159.8982195915deg) translate3d(0, 73.9375402042px, 0) scaleY(0.739375402);
+}
+#app .container .r20 .s13 {
+  transform: rotate(172.0224199766deg) translate3d(0, 77.2704917193px, 0) scaleY(0.7727049172);
+}
+#app .container .r20 .s14 {
+  transform: rotate(187.2219812336deg) translate3d(0, 72.7003865133px, 0) scaleY(0.7270038651);
+}
+#app .container .r20 .s15 {
+  transform: rotate(206.025585736deg) translate3d(0, 93.5775229726px, 0) scaleY(0.9357752297);
+}
+#app .container .r20 .s16 {
+  transform: rotate(215.3100765413deg) translate3d(0, 77.3727110638px, 0) scaleY(0.7737271106);
+}
+#app .container .r20 .s17 {
+  transform: rotate(239.2831980443deg) translate3d(0, 60.9304021829px, 0) scaleY(0.6093040218);
+}
+#app .container .r20 .s18 {
+  transform: rotate(249.5554566029deg) translate3d(0, 70.8768381657px, 0) scaleY(0.7087683817);
+}
+#app .container .r20 .s19 {
+  transform: rotate(267.6249591577deg) translate3d(0, 78.3387606471px, 0) scaleY(0.7833876065);
+}
+#app .container .r20 .s20 {
+  transform: rotate(277.7050932461deg) translate3d(0, 96.6590425169px, 0) scaleY(0.9665904252);
+}
+#app .container .r20 .s21 {
+  transform: rotate(297.5388916352deg) translate3d(0, 91.6849729208px, 0) scaleY(0.9168497292);
+}
+#app .container .r20 .s22 {
+  transform: rotate(307.8154918869deg) translate3d(0, 80.2977470358px, 0) scaleY(0.8029774704);
+}
+#app .container .r20 .s23 {
+  transform: rotate(321.3733153903deg) translate3d(0, 95.426050036px, 0) scaleY(0.9542605004);
+}
+#app .container .r20 .s24 {
+  transform: rotate(340.0000549378deg) translate3d(0, 66.7752816996px, 0) scaleY(0.667752817);
+}
+#app .container .r21 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.6666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.6666666667s infinite;
+}
+#app .container .r21 .s1 {
+  transform: rotate(-1.2126362055deg) translate3d(0, 93.3550028352px, 0) scaleY(0.9335500284);
+}
+#app .container .r21 .s2 {
+  transform: rotate(12.1170065119deg) translate3d(0, 90.9793635037px, 0) scaleY(0.909793635);
+}
+#app .container .r21 .s3 {
+  transform: rotate(26.1446576307deg) translate3d(0, 92.6584126345px, 0) scaleY(0.9265841263);
+}
+#app .container .r21 .s4 {
+  transform: rotate(35.1969189332deg) translate3d(0, 63.4541834985px, 0) scaleY(0.634541835);
+}
+#app .container .r21 .s5 {
+  transform: rotate(58.3562541048deg) translate3d(0, 61.6273809616px, 0) scaleY(0.6162738096);
+}
+#app .container .r21 .s6 {
+  transform: rotate(68.9818850687deg) translate3d(0, 94.3111788019px, 0) scaleY(0.943111788);
+}
+#app .container .r21 .s7 {
+  transform: rotate(87.4653735285deg) translate3d(0, 71.2585184589px, 0) scaleY(0.7125851846);
+}
+#app .container .r21 .s8 {
+  transform: rotate(103.1804831116deg) translate3d(0, 69.565133113px, 0) scaleY(0.6956513311);
+}
+#app .container .r21 .s9 {
+  transform: rotate(118.299097327deg) translate3d(0, 91.1542019201px, 0) scaleY(0.9115420192);
+}
+#app .container .r21 .s10 {
+  transform: rotate(131.0717868905deg) translate3d(0, 88.7636287877px, 0) scaleY(0.8876362879);
+}
+#app .container .r21 .s11 {
+  transform: rotate(146.6436772051deg) translate3d(0, 89.1919779531px, 0) scaleY(0.8919197795);
+}
+#app .container .r21 .s12 {
+  transform: rotate(161.4659147129deg) translate3d(0, 96.9425555354px, 0) scaleY(0.9694255554);
+}
+#app .container .r21 .s13 {
+  transform: rotate(176.8475921121deg) translate3d(0, 94.8987359809px, 0) scaleY(0.9489873598);
+}
+#app .container .r21 .s14 {
+  transform: rotate(186.2655769975deg) translate3d(0, 90.1573214383px, 0) scaleY(0.9015732144);
+}
+#app .container .r21 .s15 {
+  transform: rotate(208.222292744deg) translate3d(0, 93.4884200939px, 0) scaleY(0.9348842009);
+}
+#app .container .r21 .s16 {
+  transform: rotate(220.6382128802deg) translate3d(0, 66.5045932846px, 0) scaleY(0.6650459328);
+}
+#app .container .r21 .s17 {
+  transform: rotate(232.332121213deg) translate3d(0, 99.0264164651px, 0) scaleY(0.9902641647);
+}
+#app .container .r21 .s18 {
+  transform: rotate(254.0974914751deg) translate3d(0, 94.2861426311px, 0) scaleY(0.9428614263);
+}
+#app .container .r21 .s19 {
+  transform: rotate(267.2942483273deg) translate3d(0, 74.3301148447px, 0) scaleY(0.7433011484);
+}
+#app .container .r21 .s20 {
+  transform: rotate(279.0272956952deg) translate3d(0, 89.0919306163px, 0) scaleY(0.8909193062);
+}
+#app .container .r21 .s21 {
+  transform: rotate(296.1716233387deg) translate3d(0, 66.1791105924px, 0) scaleY(0.6617911059);
+}
+#app .container .r21 .s22 {
+  transform: rotate(307.8064918303deg) translate3d(0, 72.7973825125px, 0) scaleY(0.7279738251);
+}
+#app .container .r21 .s23 {
+  transform: rotate(322.6287305956deg) translate3d(0, 72.7011701311px, 0) scaleY(0.7270117013);
+}
+#app .container .r21 .s24 {
+  transform: rotate(338.0489004675deg) translate3d(0, 93.2459269182px, 0) scaleY(0.9324592692);
+}
+#app .container .r22 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.8s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.8s infinite;
+}
+#app .container .r22 .s1 {
+  transform: rotate(-3.6149879398deg) translate3d(0, 77.672261008px, 0) scaleY(0.7767226101);
+}
+#app .container .r22 .s2 {
+  transform: rotate(14.1884552408deg) translate3d(0, 88.3155481914px, 0) scaleY(0.8831554819);
+}
+#app .container .r22 .s3 {
+  transform: rotate(27.6980002528deg) translate3d(0, 91.4590398195px, 0) scaleY(0.9145903982);
+}
+#app .container .r22 .s4 {
+  transform: rotate(42.4084693918deg) translate3d(0, 60.9720031477px, 0) scaleY(0.6097200315);
+}
+#app .container .r22 .s5 {
+  transform: rotate(51.1956923961deg) translate3d(0, 92.77129861px, 0) scaleY(0.9277129861);
+}
+#app .container .r22 .s6 {
+  transform: rotate(65.9316838246deg) translate3d(0, 76.0662756533px, 0) scaleY(0.7606627565);
+}
+#app .container .r22 .s7 {
+  transform: rotate(82.0440600244deg) translate3d(0, 84.2814445981px, 0) scaleY(0.842814446);
+}
+#app .container .r22 .s8 {
+  transform: rotate(101.3068484392deg) translate3d(0, 68.3991644854px, 0) scaleY(0.6839916449);
+}
+#app .container .r22 .s9 {
+  transform: rotate(110.1610457707deg) translate3d(0, 98.3930320463px, 0) scaleY(0.9839303205);
+}
+#app .container .r22 .s10 {
+  transform: rotate(133.7177957361deg) translate3d(0, 71.8204458735px, 0) scaleY(0.7182044587);
+}
+#app .container .r22 .s11 {
+  transform: rotate(144.4231886548deg) translate3d(0, 84.4802186641px, 0) scaleY(0.8448021866);
+}
+#app .container .r22 .s12 {
+  transform: rotate(162.7817955601deg) translate3d(0, 75.3818038969px, 0) scaleY(0.753818039);
+}
+#app .container .r22 .s13 {
+  transform: rotate(178.5666028959deg) translate3d(0, 84.4665657595px, 0) scaleY(0.8446656576);
+}
+#app .container .r22 .s14 {
+  transform: rotate(185.5703106563deg) translate3d(0, 80.6793202144px, 0) scaleY(0.8067932021);
+}
+#app .container .r22 .s15 {
+  transform: rotate(209.430042032deg) translate3d(0, 63.5962663529px, 0) scaleY(0.6359626635);
+}
+#app .container .r22 .s16 {
+  transform: rotate(217.6846799512deg) translate3d(0, 96.9146727236px, 0) scaleY(0.9691467272);
+}
+#app .container .r22 .s17 {
+  transform: rotate(239.6539154473deg) translate3d(0, 76.8344629148px, 0) scaleY(0.7683446291);
+}
+#app .container .r22 .s18 {
+  transform: rotate(249.8939638087deg) translate3d(0, 60.9107917679px, 0) scaleY(0.6091079177);
+}
+#app .container .r22 .s19 {
+  transform: rotate(267.6228594708deg) translate3d(0, 71.6487379817px, 0) scaleY(0.7164873798);
+}
+#app .container .r22 .s20 {
+  transform: rotate(283.1911976608deg) translate3d(0, 93.9259147961px, 0) scaleY(0.939259148);
+}
+#app .container .r22 .s21 {
+  transform: rotate(299.2445584119deg) translate3d(0, 67.8520510768px, 0) scaleY(0.6785205108);
+}
+#app .container .r22 .s22 {
+  transform: rotate(308.6480036478deg) translate3d(0, 97.0457367481px, 0) scaleY(0.9704573675);
+}
+#app .container .r22 .s23 {
+  transform: rotate(320.6155391139deg) translate3d(0, 72.1769545422px, 0) scaleY(0.7217695454);
+}
+#app .container .r22 .s24 {
+  transform: rotate(343.4923846381deg) translate3d(0, 91.0332699026px, 0) scaleY(0.910332699);
+}
+#app .container .r23 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.9333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -2.9333333333s infinite;
+}
+#app .container .r23 .s1 {
+  transform: rotate(-2.2313299818deg) translate3d(0, 71.2675908425px, 0) scaleY(0.7126759084);
+}
+#app .container .r23 .s2 {
+  transform: rotate(5.3143570396deg) translate3d(0, 87.564481047px, 0) scaleY(0.8756448105);
+}
+#app .container .r23 .s3 {
+  transform: rotate(28.7107103457deg) translate3d(0, 89.767840265px, 0) scaleY(0.8976784027);
+}
+#app .container .r23 .s4 {
+  transform: rotate(35.9424622015deg) translate3d(0, 79.4825068956px, 0) scaleY(0.794825069);
+}
+#app .container .r23 .s5 {
+  transform: rotate(58.2847040015deg) translate3d(0, 90.9650715272px, 0) scaleY(0.9096507153);
+}
+#app .container .r23 .s6 {
+  transform: rotate(65.5680392003deg) translate3d(0, 60.4625458626px, 0) scaleY(0.6046254586);
+}
+#app .container .r23 .s7 {
+  transform: rotate(87.9600985586deg) translate3d(0, 64.1752001719px, 0) scaleY(0.6417520017);
+}
+#app .container .r23 .s8 {
+  transform: rotate(104.02810997deg) translate3d(0, 83.5084897505px, 0) scaleY(0.8350848975);
+}
+#app .container .r23 .s9 {
+  transform: rotate(119.1205089033deg) translate3d(0, 65.06073384px, 0) scaleY(0.6506073384);
+}
+#app .container .r23 .s10 {
+  transform: rotate(131.0591809494deg) translate3d(0, 69.3227866964px, 0) scaleY(0.693227867);
+}
+#app .container .r23 .s11 {
+  transform: rotate(145.2380484048deg) translate3d(0, 83.3103163022px, 0) scaleY(0.833103163);
+}
+#app .container .r23 .s12 {
+  transform: rotate(161.9903611643deg) translate3d(0, 99.5352761963px, 0) scaleY(0.995352762);
+}
+#app .container .r23 .s13 {
+  transform: rotate(175.0887362928deg) translate3d(0, 78.2578482045px, 0) scaleY(0.782578482);
+}
+#app .container .r23 .s14 {
+  transform: rotate(186.9381742748deg) translate3d(0, 77.5865297742px, 0) scaleY(0.7758652977);
+}
+#app .container .r23 .s15 {
+  transform: rotate(209.3780539536deg) translate3d(0, 80.0605729498px, 0) scaleY(0.8006057295);
+}
+#app .container .r23 .s16 {
+  transform: rotate(220.1590301509deg) translate3d(0, 70.9832989732px, 0) scaleY(0.7098329897);
+}
+#app .container .r23 .s17 {
+  transform: rotate(232.4327211286deg) translate3d(0, 61.1262365772px, 0) scaleY(0.6112623658);
+}
+#app .container .r23 .s18 {
+  transform: rotate(246.3974385376deg) translate3d(0, 67.667461386px, 0) scaleY(0.6766746139);
+}
+#app .container .r23 .s19 {
+  transform: rotate(269.8692641616deg) translate3d(0, 65.8038571607px, 0) scaleY(0.6580385716);
+}
+#app .container .r23 .s20 {
+  transform: rotate(281.5266993299deg) translate3d(0, 98.0859350017px, 0) scaleY(0.98085935);
+}
+#app .container .r23 .s21 {
+  transform: rotate(292.3053204686deg) translate3d(0, 76.6789037682px, 0) scaleY(0.7667890377);
+}
+#app .container .r23 .s22 {
+  transform: rotate(312.6731695332deg) translate3d(0, 79.6830444241px, 0) scaleY(0.7968304442);
+}
+#app .container .r23 .s23 {
+  transform: rotate(329.8854567505deg) translate3d(0, 93.0166836467px, 0) scaleY(0.9301668365);
+}
+#app .container .r23 .s24 {
+  transform: rotate(341.4320926998deg) translate3d(0, 74.4388775841px, 0) scaleY(0.7443887758);
+}
+#app .container .r24 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.0666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.0666666667s infinite;
+}
+#app .container .r24 .s1 {
+  transform: rotate(-6.5226019956deg) translate3d(0, 91.3463447503px, 0) scaleY(0.9134634475);
+}
+#app .container .r24 .s2 {
+  transform: rotate(10.4048086127deg) translate3d(0, 93.4391175283px, 0) scaleY(0.9343911753);
+}
+#app .container .r24 .s3 {
+  transform: rotate(22.787451656deg) translate3d(0, 60.8805900216px, 0) scaleY(0.6088059002);
+}
+#app .container .r24 .s4 {
+  transform: rotate(37.3773951031deg) translate3d(0, 82.3904155206px, 0) scaleY(0.8239041552);
+}
+#app .container .r24 .s5 {
+  transform: rotate(54.526424824deg) translate3d(0, 76.025738245px, 0) scaleY(0.7602573824);
+}
+#app .container .r24 .s6 {
+  transform: rotate(68.1983289081deg) translate3d(0, 72.582774505px, 0) scaleY(0.7258277451);
+}
+#app .container .r24 .s7 {
+  transform: rotate(84.0415752281deg) translate3d(0, 83.7581836676px, 0) scaleY(0.8375818367);
+}
+#app .container .r24 .s8 {
+  transform: rotate(101.1769873779deg) translate3d(0, 82.5637830252px, 0) scaleY(0.8256378303);
+}
+#app .container .r24 .s9 {
+  transform: rotate(116.083302582deg) translate3d(0, 91.3738873162px, 0) scaleY(0.9137388732);
+}
+#app .container .r24 .s10 {
+  transform: rotate(130.1659379252deg) translate3d(0, 77.8856667105px, 0) scaleY(0.7788566671);
+}
+#app .container .r24 .s11 {
+  transform: rotate(143.9018778197deg) translate3d(0, 79.1823489027px, 0) scaleY(0.791823489);
+}
+#app .container .r24 .s12 {
+  transform: rotate(158.2271286254deg) translate3d(0, 80.4098224673px, 0) scaleY(0.8040982247);
+}
+#app .container .r24 .s13 {
+  transform: rotate(172.1273098302deg) translate3d(0, 96.4988178133px, 0) scaleY(0.9649881781);
+}
+#app .container .r24 .s14 {
+  transform: rotate(193.6333513208deg) translate3d(0, 81.1749764723px, 0) scaleY(0.8117497647);
+}
+#app .container .r24 .s15 {
+  transform: rotate(202.0558625855deg) translate3d(0, 77.2316228219px, 0) scaleY(0.7723162282);
+}
+#app .container .r24 .s16 {
+  transform: rotate(219.0621654953deg) translate3d(0, 99.4652911651px, 0) scaleY(0.9946529117);
+}
+#app .container .r24 .s17 {
+  transform: rotate(236.1052546168deg) translate3d(0, 68.1991130227px, 0) scaleY(0.6819911302);
+}
+#app .container .r24 .s18 {
+  transform: rotate(245.4841940717deg) translate3d(0, 85.8677233942px, 0) scaleY(0.8586772339);
+}
+#app .container .r24 .s19 {
+  transform: rotate(267.636569243deg) translate3d(0, 63.2215377095px, 0) scaleY(0.6322153771);
+}
+#app .container .r24 .s20 {
+  transform: rotate(284.608985755deg) translate3d(0, 82.7732568438px, 0) scaleY(0.8277325684);
+}
+#app .container .r24 .s21 {
+  transform: rotate(299.4367738786deg) translate3d(0, 86.762152791px, 0) scaleY(0.8676215279);
+}
+#app .container .r24 .s22 {
+  transform: rotate(311.6069519517deg) translate3d(0, 90.2555124142px, 0) scaleY(0.9025551241);
+}
+#app .container .r24 .s23 {
+  transform: rotate(329.6632150822deg) translate3d(0, 70.0102126862px, 0) scaleY(0.7001021269);
+}
+#app .container .r24 .s24 {
+  transform: rotate(338.9125099609deg) translate3d(0, 89.0068034905px, 0) scaleY(0.8900680349);
+}
+#app .container .r25 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.2s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.2s infinite;
+}
+#app .container .r25 .s1 {
+  transform: rotate(-2.1667388069deg) translate3d(0, 66.045993666px, 0) scaleY(0.6604599367);
+}
+#app .container .r25 .s2 {
+  transform: rotate(11.102008391deg) translate3d(0, 87.7284650967px, 0) scaleY(0.877284651);
+}
+#app .container .r25 .s3 {
+  transform: rotate(21.0554500955deg) translate3d(0, 91.4760492946px, 0) scaleY(0.9147604929);
+}
+#app .container .r25 .s4 {
+  transform: rotate(42.0374939821deg) translate3d(0, 68.6606945762px, 0) scaleY(0.6866069458);
+}
+#app .container .r25 .s5 {
+  transform: rotate(50.3992047289deg) translate3d(0, 81.800276517px, 0) scaleY(0.8180027652);
+}
+#app .container .r25 .s6 {
+  transform: rotate(67.1518068471deg) translate3d(0, 77.5583489434px, 0) scaleY(0.7755834894);
+}
+#app .container .r25 .s7 {
+  transform: rotate(80.7058815787deg) translate3d(0, 83.4997776723px, 0) scaleY(0.8349977767);
+}
+#app .container .r25 .s8 {
+  transform: rotate(100.6730737406deg) translate3d(0, 99.8455930309px, 0) scaleY(0.9984559303);
+}
+#app .container .r25 .s9 {
+  transform: rotate(118.6299803244deg) translate3d(0, 63.8110752202px, 0) scaleY(0.6381107522);
+}
+#app .container .r25 .s10 {
+  transform: rotate(133.1367590549deg) translate3d(0, 69.9448129043px, 0) scaleY(0.699448129);
+}
+#app .container .r25 .s11 {
+  transform: rotate(145.3543384912deg) translate3d(0, 65.7343299079px, 0) scaleY(0.6573432991);
+}
+#app .container .r25 .s12 {
+  transform: rotate(161.5471040036deg) translate3d(0, 76.7460256521px, 0) scaleY(0.7674602565);
+}
+#app .container .r25 .s13 {
+  transform: rotate(178.1556010585deg) translate3d(0, 83.0707086101px, 0) scaleY(0.8307070861);
+}
+#app .container .r25 .s14 {
+  transform: rotate(194.5982196527deg) translate3d(0, 74.7623656594px, 0) scaleY(0.7476236566);
+}
+#app .container .r25 .s15 {
+  transform: rotate(201.9361537956deg) translate3d(0, 70.7414451768px, 0) scaleY(0.7074144518);
+}
+#app .container .r25 .s16 {
+  transform: rotate(222.5927761133deg) translate3d(0, 81.0669319038px, 0) scaleY(0.810669319);
+}
+#app .container .r25 .s17 {
+  transform: rotate(234.4325672284deg) translate3d(0, 72.5511199497px, 0) scaleY(0.7255111995);
+}
+#app .container .r25 .s18 {
+  transform: rotate(251.4581277243deg) translate3d(0, 77.6964479364px, 0) scaleY(0.7769644794);
+}
+#app .container .r25 .s19 {
+  transform: rotate(269.5741789664deg) translate3d(0, 66.1188906234px, 0) scaleY(0.6611889062);
+}
+#app .container .r25 .s20 {
+  transform: rotate(278.727344709deg) translate3d(0, 83.2181569851px, 0) scaleY(0.8321815699);
+}
+#app .container .r25 .s21 {
+  transform: rotate(295.3375919693deg) translate3d(0, 65.572957391px, 0) scaleY(0.6557295739);
+}
+#app .container .r25 .s22 {
+  transform: rotate(310.7146522365deg) translate3d(0, 60.9382616131px, 0) scaleY(0.6093826161);
+}
+#app .container .r25 .s23 {
+  transform: rotate(323.4316830182deg) translate3d(0, 77.4407585945px, 0) scaleY(0.7744075859);
+}
+#app .container .r25 .s24 {
+  transform: rotate(340.8165075832deg) translate3d(0, 62.950039587px, 0) scaleY(0.6295003959);
+}
+#app .container .r26 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.3333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.3333333333s infinite;
+}
+#app .container .r26 .s1 {
+  transform: rotate(-9.6019425649deg) translate3d(0, 97.4375253715px, 0) scaleY(0.9743752537);
+}
+#app .container .r26 .s2 {
+  transform: rotate(6.7188611815deg) translate3d(0, 94.8081749174px, 0) scaleY(0.9480817492);
+}
+#app .container .r26 .s3 {
+  transform: rotate(20.5927347929deg) translate3d(0, 68.7712166855px, 0) scaleY(0.6877121669);
+}
+#app .container .r26 .s4 {
+  transform: rotate(40.05149869deg) translate3d(0, 97.004932023px, 0) scaleY(0.9700493202);
+}
+#app .container .r26 .s5 {
+  transform: rotate(59.6692593104deg) translate3d(0, 87.616328985px, 0) scaleY(0.8761632899);
+}
+#app .container .r26 .s6 {
+  transform: rotate(74.7926827735deg) translate3d(0, 76.0372535337px, 0) scaleY(0.7603725353);
+}
+#app .container .r26 .s7 {
+  transform: rotate(80.2703048948deg) translate3d(0, 60.8321062076px, 0) scaleY(0.6083210621);
+}
+#app .container .r26 .s8 {
+  transform: rotate(99.3534196444deg) translate3d(0, 68.1113172515px, 0) scaleY(0.6811131725);
+}
+#app .container .r26 .s9 {
+  transform: rotate(119.9327929681deg) translate3d(0, 72.3566701413px, 0) scaleY(0.7235667014);
+}
+#app .container .r26 .s10 {
+  transform: rotate(129.7209988778deg) translate3d(0, 99.7661454042px, 0) scaleY(0.997661454);
+}
+#app .container .r26 .s11 {
+  transform: rotate(146.7879897165deg) translate3d(0, 84.655518686px, 0) scaleY(0.8465551869);
+}
+#app .container .r26 .s12 {
+  transform: rotate(163.7809327307deg) translate3d(0, 93.7793633442px, 0) scaleY(0.9377936334);
+}
+#app .container .r26 .s13 {
+  transform: rotate(179.7762000595deg) translate3d(0, 90.7919561017px, 0) scaleY(0.907919561);
+}
+#app .container .r26 .s14 {
+  transform: rotate(189.779435789deg) translate3d(0, 87.8544494975px, 0) scaleY(0.878544495);
+}
+#app .container .r26 .s15 {
+  transform: rotate(207.3162053175deg) translate3d(0, 61.3667526889px, 0) scaleY(0.6136675269);
+}
+#app .container .r26 .s16 {
+  transform: rotate(219.9858599832deg) translate3d(0, 71.962780697px, 0) scaleY(0.719627807);
+}
+#app .container .r26 .s17 {
+  transform: rotate(235.3021659011deg) translate3d(0, 72.8434372083px, 0) scaleY(0.7284343721);
+}
+#app .container .r26 .s18 {
+  transform: rotate(248.1650489427deg) translate3d(0, 83.3583534862px, 0) scaleY(0.8335835349);
+}
+#app .container .r26 .s19 {
+  transform: rotate(268.5708308915deg) translate3d(0, 71.8090339665px, 0) scaleY(0.7180903397);
+}
+#app .container .r26 .s20 {
+  transform: rotate(279.6946551411deg) translate3d(0, 83.949131918px, 0) scaleY(0.8394913192);
+}
+#app .container .r26 .s21 {
+  transform: rotate(298.0186444709deg) translate3d(0, 74.3600627261px, 0) scaleY(0.7436006273);
+}
+#app .container .r26 .s22 {
+  transform: rotate(310.0526450856deg) translate3d(0, 64.4352386767px, 0) scaleY(0.6443523868);
+}
+#app .container .r26 .s23 {
+  transform: rotate(324.1884491955deg) translate3d(0, 81.1953308435px, 0) scaleY(0.8119533084);
+}
+#app .container .r26 .s24 {
+  transform: rotate(336.1248033791deg) translate3d(0, 82.9347268627px, 0) scaleY(0.8293472686);
+}
+#app .container .r27 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.4666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.4666666667s infinite;
+}
+#app .container .r27 .s1 {
+  transform: rotate(-4.3432309789deg) translate3d(0, 70.0283539904px, 0) scaleY(0.7002835399);
+}
+#app .container .r27 .s2 {
+  transform: rotate(12.8382854664deg) translate3d(0, 72.8247215105px, 0) scaleY(0.7282472151);
+}
+#app .container .r27 .s3 {
+  transform: rotate(25.3499150541deg) translate3d(0, 76.6687757853px, 0) scaleY(0.7666877579);
+}
+#app .container .r27 .s4 {
+  transform: rotate(39.4660567942deg) translate3d(0, 62.205354277px, 0) scaleY(0.6220535428);
+}
+#app .container .r27 .s5 {
+  transform: rotate(52.3178257496deg) translate3d(0, 61.0318341027px, 0) scaleY(0.610318341);
+}
+#app .container .r27 .s6 {
+  transform: rotate(67.394373489deg) translate3d(0, 90.9407006488px, 0) scaleY(0.9094070065);
+}
+#app .container .r27 .s7 {
+  transform: rotate(87.5100194859deg) translate3d(0, 71.3165538958px, 0) scaleY(0.713165539);
+}
+#app .container .r27 .s8 {
+  transform: rotate(98.2103673636deg) translate3d(0, 60.7142113567px, 0) scaleY(0.6071421136);
+}
+#app .container .r27 .s9 {
+  transform: rotate(118.65632574deg) translate3d(0, 66.1851442167px, 0) scaleY(0.6618514422);
+}
+#app .container .r27 .s10 {
+  transform: rotate(126.5660269741deg) translate3d(0, 83.4664565038px, 0) scaleY(0.834664565);
+}
+#app .container .r27 .s11 {
+  transform: rotate(141.3176801217deg) translate3d(0, 80.0595673383px, 0) scaleY(0.8005956734);
+}
+#app .container .r27 .s12 {
+  transform: rotate(157.7990977826deg) translate3d(0, 68.52855751px, 0) scaleY(0.6852855751);
+}
+#app .container .r27 .s13 {
+  transform: rotate(171.6408702527deg) translate3d(0, 70.0475299358px, 0) scaleY(0.7004752994);
+}
+#app .container .r27 .s14 {
+  transform: rotate(192.1858390994deg) translate3d(0, 99.9780625522px, 0) scaleY(0.9997806255);
+}
+#app .container .r27 .s15 {
+  transform: rotate(200.3069459139deg) translate3d(0, 66.4963680238px, 0) scaleY(0.6649636802);
+}
+#app .container .r27 .s16 {
+  transform: rotate(221.9128770847deg) translate3d(0, 95.7378834896px, 0) scaleY(0.9573788349);
+}
+#app .container .r27 .s17 {
+  transform: rotate(234.0728469787deg) translate3d(0, 89.4702626611px, 0) scaleY(0.8947026266);
+}
+#app .container .r27 .s18 {
+  transform: rotate(248.5048773699deg) translate3d(0, 61.1411988649px, 0) scaleY(0.6114119886);
+}
+#app .container .r27 .s19 {
+  transform: rotate(262.4346495494deg) translate3d(0, 68.5186925473px, 0) scaleY(0.6851869255);
+}
+#app .container .r27 .s20 {
+  transform: rotate(278.0754390349deg) translate3d(0, 90.7153362625px, 0) scaleY(0.9071533626);
+}
+#app .container .r27 .s21 {
+  transform: rotate(297.9206798861deg) translate3d(0, 84.9474977225px, 0) scaleY(0.8494749772);
+}
+#app .container .r27 .s22 {
+  transform: rotate(307.0573082752deg) translate3d(0, 77.8684730646px, 0) scaleY(0.7786847306);
+}
+#app .container .r27 .s23 {
+  transform: rotate(325.8395308711deg) translate3d(0, 90.0807733884px, 0) scaleY(0.9008077339);
+}
+#app .container .r27 .s24 {
+  transform: rotate(341.2452666076deg) translate3d(0, 81.1168502189px, 0) scaleY(0.8111685022);
+}
+#app .container .r28 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.6s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.6s infinite;
+}
+#app .container .r28 .s1 {
+  transform: rotate(-9.5227552607deg) translate3d(0, 70.311873825px, 0) scaleY(0.7031187382);
+}
+#app .container .r28 .s2 {
+  transform: rotate(10.1615385129deg) translate3d(0, 98.8330925794px, 0) scaleY(0.9883309258);
+}
+#app .container .r28 .s3 {
+  transform: rotate(22.388647973deg) translate3d(0, 92.0049776612px, 0) scaleY(0.9200497766);
+}
+#app .container .r28 .s4 {
+  transform: rotate(35.6041792317deg) translate3d(0, 78.3811179775px, 0) scaleY(0.7838111798);
+}
+#app .container .r28 .s5 {
+  transform: rotate(51.6484597768deg) translate3d(0, 69.3634591654px, 0) scaleY(0.6936345917);
+}
+#app .container .r28 .s6 {
+  transform: rotate(66.289957809deg) translate3d(0, 92.9960895492px, 0) scaleY(0.9299608955);
+}
+#app .container .r28 .s7 {
+  transform: rotate(87.8437109661deg) translate3d(0, 73.0355408647px, 0) scaleY(0.7303554086);
+}
+#app .container .r28 .s8 {
+  transform: rotate(100.516625533deg) translate3d(0, 87.3817775301px, 0) scaleY(0.8738177753);
+}
+#app .container .r28 .s9 {
+  transform: rotate(115.3753637292deg) translate3d(0, 84.7562679783px, 0) scaleY(0.8475626798);
+}
+#app .container .r28 .s10 {
+  transform: rotate(134.1511933654deg) translate3d(0, 93.2819064562px, 0) scaleY(0.9328190646);
+}
+#app .container .r28 .s11 {
+  transform: rotate(146.5441285704deg) translate3d(0, 66.9500385882px, 0) scaleY(0.6695003859);
+}
+#app .container .r28 .s12 {
+  transform: rotate(158.8032680776deg) translate3d(0, 92.801841533px, 0) scaleY(0.9280184153);
+}
+#app .container .r28 .s13 {
+  transform: rotate(179.7835467073deg) translate3d(0, 84.7606430033px, 0) scaleY(0.84760643);
+}
+#app .container .r28 .s14 {
+  transform: rotate(190.7169892644deg) translate3d(0, 89.9468501781px, 0) scaleY(0.8994685018);
+}
+#app .container .r28 .s15 {
+  transform: rotate(203.3213913072deg) translate3d(0, 64.0070159006px, 0) scaleY(0.640070159);
+}
+#app .container .r28 .s16 {
+  transform: rotate(218.4803711293deg) translate3d(0, 79.6094955197px, 0) scaleY(0.7960949552);
+}
+#app .container .r28 .s17 {
+  transform: rotate(237.695782698deg) translate3d(0, 95.2470612039px, 0) scaleY(0.952470612);
+}
+#app .container .r28 .s18 {
+  transform: rotate(254.5572297614deg) translate3d(0, 92.2382886271px, 0) scaleY(0.9223828863);
+}
+#app .container .r28 .s19 {
+  transform: rotate(263.6971561901deg) translate3d(0, 88.000956859px, 0) scaleY(0.8800095686);
+}
+#app .container .r28 .s20 {
+  transform: rotate(281.1961662387deg) translate3d(0, 79.5681786965px, 0) scaleY(0.795681787);
+}
+#app .container .r28 .s21 {
+  transform: rotate(299.0871500627deg) translate3d(0, 64.8656851647px, 0) scaleY(0.6486568516);
+}
+#app .container .r28 .s22 {
+  transform: rotate(308.8494250583deg) translate3d(0, 70.3180628189px, 0) scaleY(0.7031806282);
+}
+#app .container .r28 .s23 {
+  transform: rotate(324.3622560627deg) translate3d(0, 61.3481355372px, 0) scaleY(0.6134813554);
+}
+#app .container .r28 .s24 {
+  transform: rotate(341.5128316317deg) translate3d(0, 89.4265400429px, 0) scaleY(0.8942654004);
+}
+#app .container .r29 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.7333333333s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.7333333333s infinite;
+}
+#app .container .r29 .s1 {
+  transform: rotate(-8.9499572507deg) translate3d(0, 92.130352508px, 0) scaleY(0.9213035251);
+}
+#app .container .r29 .s2 {
+  transform: rotate(14.8514096744deg) translate3d(0, 73.9110547466px, 0) scaleY(0.7391105475);
+}
+#app .container .r29 .s3 {
+  transform: rotate(26.6978136439deg) translate3d(0, 66.4279909243px, 0) scaleY(0.6642799092);
+}
+#app .container .r29 .s4 {
+  transform: rotate(43.8060640466deg) translate3d(0, 78.1757049328px, 0) scaleY(0.7817570493);
+}
+#app .container .r29 .s5 {
+  transform: rotate(51.2448078641deg) translate3d(0, 69.2169709036px, 0) scaleY(0.692169709);
+}
+#app .container .r29 .s6 {
+  transform: rotate(66.1516884027deg) translate3d(0, 66.938502691px, 0) scaleY(0.6693850269);
+}
+#app .container .r29 .s7 {
+  transform: rotate(83.7697516671deg) translate3d(0, 97.9512134082px, 0) scaleY(0.9795121341);
+}
+#app .container .r29 .s8 {
+  transform: rotate(95.2449170599deg) translate3d(0, 77.0151671909px, 0) scaleY(0.7701516719);
+}
+#app .container .r29 .s9 {
+  transform: rotate(115.8819496314deg) translate3d(0, 83.4232433021px, 0) scaleY(0.834232433);
+}
+#app .container .r29 .s10 {
+  transform: rotate(132.2617442575deg) translate3d(0, 89.391323432px, 0) scaleY(0.8939132343);
+}
+#app .container .r29 .s11 {
+  transform: rotate(149.1843939539deg) translate3d(0, 98.6606509458px, 0) scaleY(0.9866065095);
+}
+#app .container .r29 .s12 {
+  transform: rotate(160.8241053561deg) translate3d(0, 82.656943065px, 0) scaleY(0.8265694306);
+}
+#app .container .r29 .s13 {
+  transform: rotate(171.9985318205deg) translate3d(0, 76.8152829554px, 0) scaleY(0.7681528296);
+}
+#app .container .r29 .s14 {
+  transform: rotate(189.2647289972deg) translate3d(0, 99.7942834264px, 0) scaleY(0.9979428343);
+}
+#app .container .r29 .s15 {
+  transform: rotate(202.3064392789deg) translate3d(0, 78.5620989833px, 0) scaleY(0.7856209898);
+}
+#app .container .r29 .s16 {
+  transform: rotate(220.7862850228deg) translate3d(0, 68.3607679415px, 0) scaleY(0.6836076794);
+}
+#app .container .r29 .s17 {
+  transform: rotate(236.4853375274deg) translate3d(0, 77.3190505541px, 0) scaleY(0.7731905055);
+}
+#app .container .r29 .s18 {
+  transform: rotate(251.3210083991deg) translate3d(0, 69.4879828502px, 0) scaleY(0.6948798285);
+}
+#app .container .r29 .s19 {
+  transform: rotate(269.1345759216deg) translate3d(0, 95.4339511278px, 0) scaleY(0.9543395113);
+}
+#app .container .r29 .s20 {
+  transform: rotate(276.0465438567deg) translate3d(0, 86.0819268905px, 0) scaleY(0.8608192689);
+}
+#app .container .r29 .s21 {
+  transform: rotate(294.2095551633deg) translate3d(0, 92.0752722483px, 0) scaleY(0.9207527225);
+}
+#app .container .r29 .s22 {
+  transform: rotate(310.4495177713deg) translate3d(0, 96.015224215px, 0) scaleY(0.9601522421);
+}
+#app .container .r29 .s23 {
+  transform: rotate(326.8590857862deg) translate3d(0, 65.5838660815px, 0) scaleY(0.6558386608);
+}
+#app .container .r29 .s24 {
+  transform: rotate(338.3380449113deg) translate3d(0, 99.7258008823px, 0) scaleY(0.9972580088);
+}
+#app .container .r30 {
+  -webkit-animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.8666666667s infinite;
+          animation: ring 4s cubic-bezier(0.98, 0.02, 0.97, 0.12) -3.8666666667s infinite;
+}
+#app .container .r30 .s1 {
+  transform: rotate(-5.152794003deg) translate3d(0, 67.1839298764px, 0) scaleY(0.6718392988);
+}
+#app .container .r30 .s2 {
+  transform: rotate(13.9128154661deg) translate3d(0, 81.2320993288px, 0) scaleY(0.8123209933);
+}
+#app .container .r30 .s3 {
+  transform: rotate(28.4021040378deg) translate3d(0, 78.3949680125px, 0) scaleY(0.7839496801);
+}
+#app .container .r30 .s4 {
+  transform: rotate(39.2439679408deg) translate3d(0, 99.9307874626px, 0) scaleY(0.9993078746);
+}
+#app .container .r30 .s5 {
+  transform: rotate(54.9478998321deg) translate3d(0, 99.7313169998px, 0) scaleY(0.99731317);
+}
+#app .container .r30 .s6 {
+  transform: rotate(73.2614845468deg) translate3d(0, 87.8989822252px, 0) scaleY(0.8789898223);
+}
+#app .container .r30 .s7 {
+  transform: rotate(88.5800835879deg) translate3d(0, 82.6347917888px, 0) scaleY(0.8263479179);
+}
+#app .container .r30 .s8 {
+  transform: rotate(95.2436294282deg) translate3d(0, 86.7895147259px, 0) scaleY(0.8678951473);
+}
+#app .container .r30 .s9 {
+  transform: rotate(116.0253590014deg) translate3d(0, 94.7728005224px, 0) scaleY(0.9477280052);
+}
+#app .container .r30 .s10 {
+  transform: rotate(125.004494002deg) translate3d(0, 95.7284903969px, 0) scaleY(0.957284904);
+}
+#app .container .r30 .s11 {
+  transform: rotate(147.5241750823deg) translate3d(0, 83.1077780985px, 0) scaleY(0.831077781);
+}
+#app .container .r30 .s12 {
+  transform: rotate(162.7673884359deg) translate3d(0, 60.3390026354px, 0) scaleY(0.6033900264);
+}
+#app .container .r30 .s13 {
+  transform: rotate(177.9990332464deg) translate3d(0, 96.7408041342px, 0) scaleY(0.9674080413);
+}
+#app .container .r30 .s14 {
+  transform: rotate(190.2319897541deg) translate3d(0, 77.4162092827px, 0) scaleY(0.7741620928);
+}
+#app .container .r30 .s15 {
+  transform: rotate(208.7786035542deg) translate3d(0, 72.4920405802px, 0) scaleY(0.7249204058);
+}
+#app .container .r30 .s16 {
+  transform: rotate(222.13797291deg) translate3d(0, 77.1104921182px, 0) scaleY(0.7711049212);
+}
+#app .container .r30 .s17 {
+  transform: rotate(233.8675536969deg) translate3d(0, 63.7903360741px, 0) scaleY(0.6379033607);
+}
+#app .container .r30 .s18 {
+  transform: rotate(250.147954699deg) translate3d(0, 76.10773046px, 0) scaleY(0.7610773046);
+}
+#app .container .r30 .s19 {
+  transform: rotate(268.2823691009deg) translate3d(0, 81.4615062835px, 0) scaleY(0.8146150628);
+}
+#app .container .r30 .s20 {
+  transform: rotate(284.5505118025deg) translate3d(0, 75.3400721156px, 0) scaleY(0.7534007212);
+}
+#app .container .r30 .s21 {
+  transform: rotate(293.3879343668deg) translate3d(0, 65.0101879696px, 0) scaleY(0.6501018797);
+}
+#app .container .r30 .s22 {
+  transform: rotate(309.6611636202deg) translate3d(0, 77.8114892617px, 0) scaleY(0.7781148926);
+}
+#app .container .r30 .s23 {
+  transform: rotate(325.70996858deg) translate3d(0, 85.3255908236px, 0) scaleY(0.8532559082);
+}
+#app .container .r30 .s24 {
+  transform: rotate(337.3978209294deg) translate3d(0, 78.8676310384px, 0) scaleY(0.7886763104);
+}
+
+@-webkit-keyframes ring {
+  0% {
+    transform: scale(0);
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 1;
+  }
+}
+
+@keyframes ring {
+  0% {
+    transform: scale(0);
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 1;
+  }
+}
