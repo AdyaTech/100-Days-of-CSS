@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:900,400italic);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: #E3E7EA;
+  color: #333;
+  font-family: "Lato", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.book {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 280px;
+  border-radius: 4px;
+  background: linear-gradient(249deg, #555555 0%, #353232 60%, #232323 100%);
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.book:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #1d1d1d 0%, #616161 12%, #363636 49%, #272727 50%);
+}
+.book:after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 101.5%;
+  top: -2px;
+  right: 20px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #303030 0%, #a70a0a 10%, #2e2e2e 20%, #a70a0a 30%, #2c2c2c 40%, #a70a0a 50%, #2b2b2b 60%, #a70a0a 70%, #2a2a2a 80%, #a70a0a 90%, #1c1c1c 100%);
+}
+.book .title, .book .subtitle {
+  margin-left: 35px;
+}
+.book .title {
+  margin-top: 50px;
+  margin-bottom: 4px;
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 900;
+}
+.book .subtitle {
+  opacity: 0.8;
+  font-size: 14px;
+}
