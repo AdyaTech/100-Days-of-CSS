@@ -88,6 +88,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 83| Warp Drive |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2083)|
 | 84| Book Cover |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2084)|
 | 85| It's something |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2085)|
+| 86| Newton's Cradle |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2086)|
 
 ## Output
 1. 100 Days
@@ -429,3 +430,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 85. It's something
         
 ![Day 85](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2085/video.gif)
+
+86. Newton's Cradle
+        
+![Day 86](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2086/video.gif)
