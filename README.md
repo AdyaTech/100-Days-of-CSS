@@ -198,7 +198,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 
 27. CheckList
     
-![Day 27](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2027/video.mp4)
+![Day 27](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2027/image.png)
 
 28. RingaRing
         
