@@ -89,6 +89,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 84| Book Cover |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2084)|
 | 85| It's something |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2085)|
 | 86| Newton's Cradle |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2086)|
+| 87| Ruby |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2087)|
 
 ## Output
 1. 100 Days
@@ -434,3 +435,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 86. Newton's Cradle
         
 ![Day 86](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2086/video.gif)
+
+87. Ruby
+        
+![Day 87](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2087/video.gif)
