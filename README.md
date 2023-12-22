@@ -93,6 +93,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 88| Candle |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2088)|
 | 89| Animated Pattern |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2089)|
 | 90| Mouse Trap |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2090)|
+| 91| Cube Loader |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2091)|
 
 ## Output
 1. 100 Days
@@ -454,3 +455,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 90. Mouse Trap
         
 ![Day 90](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2090/video.gif)
+
+91. Cube Loader
+        
+![Day 91](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2091/video.gif)
