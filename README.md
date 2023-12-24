@@ -95,6 +95,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 90| Mouse Trap |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2090)|
 | 91| Cube Loader |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2091)|
 | 92| Dancing Points |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2092)|
+| 93| Padlock |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2093)|
 
 ## Output
 1. 100 Days
@@ -464,3 +465,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 92. Dancing Points
         
 ![Day 92](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2092/video.gif)
+
+93. Padlock
+        
+![Day 93](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2093/video.gif)
