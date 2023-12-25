@@ -96,6 +96,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 91| Cube Loader |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2091)|
 | 92| Dancing Points |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2092)|
 | 93| Padlock |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2093)|
+| 94| Tree |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2094)|
 
 ## Output
 1. 100 Days
@@ -469,3 +470,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 93. Padlock
         
 ![Day 93](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2093/video.gif)
+
+94. Tree
+        
+![Day 94](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2094/video.gif)
