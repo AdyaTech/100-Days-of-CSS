@@ -97,6 +97,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 92| Dancing Points |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2092)|
 | 93| Padlock |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2093)|
 | 94| Tree |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2094)|
+| 95| Pig |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2095)|
 
 ## Output
 1. 100 Days
@@ -474,3 +475,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 94. Tree
         
 ![Day 94](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2094/video.gif)
+
+95. Pig
+        
+![Day 95](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2095/video.gif)
