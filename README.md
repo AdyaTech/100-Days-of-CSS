@@ -100,6 +100,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 95| Pig |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2095)|
 | 96| Jumping Square |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2096)|
 | 97| Puppet |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2097)|
+| 98| Plopp |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2098)|
 
 ## Output
 1. 100 Days
@@ -489,3 +490,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 97. Puppet
         
 ![Day 97](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2097/video.gif)
+
+98. Plopp
+        
+![Day 98](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2098/video.gif)
