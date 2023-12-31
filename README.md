@@ -102,6 +102,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 | 97| Puppet |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2097)|
 | 98| Plopp |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2098)|
 | 99| Circle-Square |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%2099)|
+| 100 | Neon Lights |[Link](https://github.com/AdyaTech/100-Days-of-CSS/tree/main/Day%20100)|
 
 ## Output
 1. 100 Days
@@ -499,3 +500,7 @@ Jumping into the Challenge using Vanilla CSS and a little bit of JavaScript.
 99. Circle-Square
         
 ![Day 99](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%2099/video.gif)
+
+100. Neon Lights
+        
+![Day 100](https://github.com/AdyaTech/100-Days-of-CSS/blob/main/Day%20100/video.gif)
